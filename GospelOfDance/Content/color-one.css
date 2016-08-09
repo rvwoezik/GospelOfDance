@@ -1,0 +1,11 @@
+
+.wm-color-one, .wm-colorhover-one:hover,.wm-header-one .navbar-nav > li:hover > a,.wm-header-one .navbar-nav > li.active > a {
+    color: #b94af6;
+}
+.wm-bgcolor-one, .wm-bgcolorhover-one:hover,.wm-banner-player:before,.wm-check-eventbtn:before,.wm-members-slider-wrap figure figcaption:before,.wm-members-slider-wrap figure figcaption:after,
+.wm-gallery-section figcaption:before,.wm-store-slide-layer figcaption:before,.wm-store-slide-layer figcaption:after {
+    background-color: #b94af6;
+}
+.wm-bordercolor-one, .wm-bordercolorhover-one:hover {
+    border-color: #b94af6;
+}

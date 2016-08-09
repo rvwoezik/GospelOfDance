@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MusicBeat Home Page3</title>
+
+    <!-- Css Files -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+    <link href="css/color-one.css" rel="stylesheet">
+    <link href="css/color-two.css" rel="stylesheet">
+    <link href="css/slick-slider.css" rel="stylesheet">
+    <link href="css/prettyphoto.css" rel="stylesheet">
+    <link href="css/jplayer.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	
+    <!--// Main Wrapper \\-->
+    <div class="wm-main-wrapper wm-overflow-section">
+        
+        <!--// Header \\-->
+		<header id="wm-header" class="wm-header-three">
+
+			<!--// Main Header \\-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"><a href="index.html" class="wm-logo"><img src="images/logo3.png" alt=""></a></div>
+					<div class="col-md-9">
+						<div class="wm-plugin-section">
+							<div class="wm-language">
+								<ul>
+									<li><a href="#"><img src="extra-images/flag-1.png" alt=""></a></li>
+									<li><a href="#"><img src="extra-images/flag-2.png" alt=""></a></li>
+									<li><a href="#"><img src="extra-images/flag-3.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="wm-useroptions">
+								<ul>
+									<li><a href="#" class="wm-userlogin">Login</a>
+										<form class="wm-login-popup">
+											<ul>
+												<li>
+													<label>Username or E-mail</label>
+													<input type="text" value="info@webmarce.com" onblur="if(this.value == '') { this.value ='info@webmarce.com'; }" onfocus="if(this.value =='info@webmarce.com') { this.value = ''; }">
+												</li>
+												<li>
+													<label>Password</label>
+													<input type="password" value="12345" onblur="if(this.value == '') { this.value ='12345'; }" onfocus="if(this.value =='12345') { this.value = ''; }">
+													<i class="fa fa-eye"></i>
+												</li>
+												<li><input type="submit" value="Login" class="wm-bgcolor-two"></li>
+											</ul>
+										</form>
+									</li>
+									<li><a href="#" class="wm-usersignup">Sign up</a>
+										<form class="wm-signup-popup">
+											<ul>
+												<li>
+													<label>E-mail Address</label>
+													<input type="text" value="">
+												</li>
+												<li>
+													<label>Password</label>
+													<input type="password" value="12345" onblur="if(this.value == '') { this.value ='12345'; }" onfocus="if(this.value =='12345') { this.value = ''; }">
+													<i class="fa fa-eye"></i>
+												</li>
+												<li><input type="submit" value="Register" class="wm-bgcolor-two"></li>
+											</ul>
+										</form>
+									</li>
+									<li><a href="#" class="wm-search-btn"><i class="fa fa-search"></i></a>
+										<form class="wm-search-popup">
+											<ul>
+												<li>
+													<label>Type Your Search:</label>
+													<input type="text" value="">
+												</li>
+												<li><input type="submit" value="Search" class="wm-bgcolor-two"></li>
+											</ul>
+										</form>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--// Navigation \\-->
+						<nav class="navbar navbar-default">
+						    <div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+						    </div>
+						    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+						      <ul class="nav navbar-nav">
+						        <li class="active"><a href="#">Home</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="index.html">MusciBeat Home V1</a></li>
+						        		<li><a href="index-two.html">MusciBeat Home V2</a></li>
+						        		<li><a href="index-three.html">MusciBeat Home V3</a></li>
+						        		<li><a href="index-four.html">MusciBeat Home V4</a></li>
+						        	</ul>
+						        </li>
+						        <li ><a href="#">Events</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="event-grid.html">Event Grid</a></li>
+						        		<li><a href="event-list.html">Event List</a></li>
+						        		<li><a href="events-calendar.html">Event Calendar</a></li>
+						        		<li><a href="event-single.html">Event Single</a></li>
+						        	</ul>
+						        </li>
+						        <li><a href="#">Albums</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="album-grid.html">Albums Grid</a></li>
+						        		<li><a href="album-grid-no-filterable.html">Albums Grid W/out/FilterAble</a></li>
+						        		<li><a href="album-grid-wsidebar.html">Albums Grid W/SideBar</a></li>
+						        		<li><a href="album-list.html">Albums List</a></li>
+						        		<li><a href="album-list-no-sidebar.html">Albums List W/Out/SideBar</a></li>
+						        		<li><a href="album-single-post.html">Albums Single Post</a></li>
+						        	</ul>
+						        </li>
+						        <li class="wm-megamenu-li"><a href="#">Pages</a>
+						        	<ul class="wm-megamenu">
+						        		<li class="row">
+						        			<div class="col-md-2">
+						        				<h4>Link 1</h4>
+						        				<ul class="wm-megalist">
+						        					<li><a href="about-us.html">About Us</a></li>
+						        					<li><a href="our-gallery.html">Our Gallery</a></li>
+						        					<li><a href="our-price.html">Our PricePlan</a></li>
+						        					<li><a href="our-services.html">Our Services</a></li>
+						        					<li><a href="search-result.html">Search Result</a></li>
+						        				</ul>
+						        			</div>
+						        			<div class="col-md-2">
+						        				<h4>Link 2</h4>
+						        				<ul class="wm-megalist">
+						        					<li><a href="sitemap.html">SiteMap</a></li>
+						        					<li><a href="faq.html">Faq</a></li>
+						        					<li><a href="faqv2.html">Faq V2</a></li>
+						        					<li><a href="404-page.html">404 Page</a></li>
+						        					<li><a href="coming-soon.html">Coming Soon Page</a></li>
+						        				</ul>
+						        			</div>
+						        			<div class="col-md-2">
+						        				<h4>Artists</h4>
+						        				<ul class="wm-megalist">
+						        					<li><a href="artist-grid.html">Artists Grid</a></li>
+						        					<li><a href="artist-grid-wsidebar.html">Artists Grid W/SideBar</a></li>
+						        					<li><a href="artist-list.html">Artists List</a></li>
+						        					<li><a href="artist-list-wsidebar.html">Artists List W/SideBar</a></li>
+						        					<li><a href="artist-single.html">Artists Single</a></li>
+						        				</ul>
+						        			</div>
+						        			<div class="col-md-6">
+						        				<a href="#" class="wm-thumbnail">
+													<img src="extra-images/jplayer-poster-1.jpg" alt="" />
+												</a>
+						        			</div>
+						        		</li>
+						        	</ul>
+						        </li>
+						        <li><a href="#">Blog</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="blog-large.html">Blog Large</a></li>
+						        		<li><a href="blog-mediam.html">Blog Medium</a></li>
+						        		<li><a href="blog-single.html">Blog Detail</a></li>
+						        	</ul>
+						        </li>
+						        <li><a href="#">Shop</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="shop-grid.html">Shop Grid</a></li>
+						        		<li><a href="shop-list.html">Shop List</a></li>
+						        		<li><a href="shop-single.html">Shop Detail</a></li>
+						        	</ul>
+						        </li>
+						        <li><a href="#">Contact</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="contact-us.html">Contact Us View1</a></li>
+						        		<li><a href="contact-us-two.html">Contact Us View2</a></li>
+						        	</ul>
+						        </li>
+						      </ul>
+						    </div>
+						    <div class="wm-cart-bag"><a href="#"><i class="flaticon-silhouette-1"></i> <span>0</span></a>
+						    	<div class="wm-cart-box">
+									<h2>3 items in the cart</h2>
+									<ul>
+										<li id="wmremove1">
+											<figure><a href="#"><img src="extra-images/cartbox-1.jpg" alt=""></a></figure>
+											<div class="wm-cartbox-text">
+												<h6><a href="#">1 x Golden Trumpet</a></h6>
+												<div class="wm-rating"><span class="wm-rating-box" style="width:45%"></span></div>
+												<small>$32.00</small>
+												<a href="#" class="wm-close-cart" id="wmbtnremove1"><i class="fa fa-times"></i></a>
+											</div>
+										</li>
+										<li id="wmremove2">
+											<figure><a href="#"><img src="extra-images/cartbox-2.jpg" alt=""></a></figure>
+											<div class="wm-cartbox-text">
+												<h6><a href="#">2 x Electric Guitar</a></h6>
+												<div class="wm-rating"><span class="wm-rating-box" style="width:45%"></span></div>
+												<small>$43.99</small>
+												<a href="#" class="wm-close-cart" id="wmbtnremove2"><i class="fa fa-times"></i></a>
+											</div>
+										</li>
+										<li id="wmremove3">
+											<figure><a href="#"><img src="extra-images/cartbox-3.jpg" alt=""></a></figure>
+											<div class="wm-cartbox-text">
+												<h6><a href="#">1 x Bass Amps</a></h6>
+												<div class="wm-rating"><span class="wm-rating-box" style="width:45%"></span></div>
+												<small>$89.99</small>
+												<a href="#" class="wm-close-cart" id="wmbtnremove3"><i class="fa fa-times"></i></a>
+											</div>
+										</li>
+									</ul>
+									<p>Subtotal <span>$165.98</span></p>
+									<div class="wm-cart-link"><a href="#" class="wm-cartbox-btn"><i class="flaticon-tool"></i> checkout</a></div>
+								</div>
+						    </div>
+						</nav>
+						<!--// Navigation \\-->
+					</div>
+				</div>
+			</div>
+			<!--// Main Header \\-->
+
+		</header>
+		<!--// Header \\-->
+
+		<!--// Main Banner \\-->
+		<div class="wm-main-banner">
+
+			<div class="wm-banner-three">
+				
+				<div class="wm-banner-three-slide">
+					<img src="extra-images/banne-view3-1.jpg" alt="">
+					<!--// Player \\-->
+					<div class="container">
+						
+						<div class="wm-banner-player-three">
+							<div class="wm-share-song">
+								<span>Purchase Album: $23.99</span>
+								<a href="#"><i class="flaticon-web"></i> Share</a>
+							</div>
+							<div id="jquery_jplayer_3" class="jp-jplayer"></div>
+							<div id="jp_container_3" class="jp-audio" role="application" aria-label="media player">
+								<div class="jp-type-playlist">
+									<div class="jp-gui jp-interface">
+										<div id="get-track" class="wm-get-track wm-color-two">Track 1</div>
+										<div id="current-track" class="song-title">Jenna Kevinsons / Bring Me To Life</div>
+										<div class="wm-player-wrap">
+											<div class="jp-time-holder">
+												<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+												<div class="jp-duration" role="timer" aria-label="duration">/&nbsp;</div>
+											</div>
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div class="jp-play-bar"></div>
+												</div>
+											</div>
+											<div class="jp-volume-controls">
+												<span class="jp-mute"><i class="flaticon-technology-1"></i></span>
+												<div class="jp-volume-bar">
+													<div class="jp-volume-bar-value"></div>
+												</div>
+											</div>
+										</div>
+										<div class="jp-controls">
+											<span class="jp-shuffle"><i class="flaticon-arrows-2"></i></span>
+											<span class="wm-bgcolor-one jp-previous"><i class="flaticon-arrows-1"></i></span>
+											<span class="jp-play"><i class="fa fa-pause"></i> <i class="fa fa-play"></i></span>
+											<span class="wm-bgcolor-one jp-next"><i class="flaticon-arrows-1"></i></span>
+											<span class="jp-repeat"><i class="flaticon-arrows-3"></i></span>
+										</div>
+									</div>
+									<div class="jp-playlist">
+										<ul>
+											<li>&nbsp;</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!--// Player \\-->
+				</div>
+
+				<div class="wm-banner-three-slide">
+					<img src="extra-images/banne-view3-2.jpg" alt="">
+					<!--// Player \\-->
+					<div class="container">
+						
+						<div class="wm-banner-player-three">
+							<div class="wm-share-song">
+								<span>Purchase Album: $23.99</span>
+								<a href="#"><i class="flaticon-web"></i> Share</a>
+							</div>
+							<div id="jquery_jplayer_9" class="jp-jplayer"></div>
+							<div id="jp_container_9" class="jp-audio" role="application" aria-label="media player">
+								<div class="jp-type-playlist">
+									<div class="jp-gui jp-interface">
+										<div id="get-track9" class="wm-get-track wm-color-two">Track 1</div>
+										<div id="current-track9" class="song-title">Jenna Kevinsons / Bring Me To Life</div>
+										<div class="wm-player-wrap">
+											<div class="jp-time-holder">
+												<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+												<div class="jp-duration" role="timer" aria-label="duration">/&nbsp;</div>
+											</div>
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div class="jp-play-bar"></div>
+												</div>
+											</div>
+											<div class="jp-volume-controls">
+												<span class="jp-mute"><i class="flaticon-technology-1"></i></span>
+												<div class="jp-volume-bar">
+													<div class="jp-volume-bar-value"></div>
+												</div>
+											</div>
+										</div>
+										<div class="jp-controls">
+											<span class="jp-shuffle"><i class="flaticon-arrows-2"></i></span>
+											<span class="wm-bgcolor-one jp-previous"><i class="flaticon-arrows-1"></i></span>
+											<span class="jp-play"><i class="fa fa-pause"></i> <i class="fa fa-play"></i></span>
+											<span class="wm-bgcolor-one jp-next"><i class="flaticon-arrows-1"></i></span>
+											<span class="jp-repeat"><i class="flaticon-arrows-3"></i></span>
+										</div>
+									</div>
+									<div class="jp-playlist">
+										<ul>
+											<li>&nbsp;</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!--// Player \\-->
+				</div>
+
+				<div class="wm-banner-three-slide">
+					<img src="extra-images/banne-view3-3.jpg" alt="">
+					<!--// Player \\-->
+					<div class="container">
+						
+						<div class="wm-banner-player-three">
+							<div class="wm-share-song">
+								<span>Purchase Album: $23.99</span>
+								<a href="#"><i class="flaticon-web"></i> Share</a>
+							</div>
+							<div id="jquery_jplayer_10" class="jp-jplayer"></div>
+							<div id="jp_container_10" class="jp-audio" role="application" aria-label="media player">
+								<div class="jp-type-playlist">
+									<div class="jp-gui jp-interface">
+										<div id="get-track10" class="wm-get-track wm-color-two">Track 1</div>
+										<div id="current-track10" class="song-title">Jenna Kevinsons / Bring Me To Life</div>
+										<div class="wm-player-wrap">
+											<div class="jp-time-holder">
+												<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+												<div class="jp-duration" role="timer" aria-label="duration">/&nbsp;</div>
+											</div>
+											<div class="jp-progress">
+												<div class="jp-seek-bar">
+													<div class="jp-play-bar"></div>
+												</div>
+											</div>
+											<div class="jp-volume-controls">
+												<span class="jp-mute"><i class="flaticon-technology-1"></i></span>
+												<div class="jp-volume-bar">
+													<div class="jp-volume-bar-value"></div>
+												</div>
+											</div>
+										</div>
+										<div class="jp-controls">
+											<span class="jp-shuffle"><i class="flaticon-arrows-2"></i></span>
+											<span class="wm-bgcolor-one jp-previous"><i class="flaticon-arrows-1"></i></span>
+											<span class="jp-play"><i class="fa fa-pause"></i> <i class="fa fa-play"></i></span>
+											<span class="wm-bgcolor-one jp-next"><i class="flaticon-arrows-1"></i></span>
+											<span class="jp-repeat"><i class="flaticon-arrows-3"></i></span>
+										</div>
+									</div>
+									<div class="jp-playlist">
+										<ul>
+											<li>&nbsp;</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!--// Player \\-->
+				</div>
+
+			</div>
+
+		</div>
+		<!--// Main Banner \\-->
+
+		<!--// Main Content \\-->
+		<div class="wm-main-content">
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-musicbeat-tourdates">
+				<div class="container">
+					<div class="row">
+
+						<!--// Music Beat Dates \\-->
+						<div class="col-md-12">
+							<div class="wm-fancy-title">
+								<span>Tour Dates</span>
+								<h2>Music Beat Tour Dates</h2>
+							</div>
+							<div class="wm-musicbeat-dates">
+								<ul class="row">
+									<li class="col-md-12">
+										<div class="wm-musicbeat-dates-wrap">
+											<figure><a href="#"><img src="extra-images/musicbeat-dates-1.jpg" alt=""> <span class="wm-black-layer"></span></a></figure>
+											<time datetime="2008-02-14 20:00">15 <span>March <small>Tue</small></span></time>
+											<div class="wm-musicbeat-title">
+												<h2><a href="#">Raymond James Stadium</a></h2>
+												<span>Tampa, FL</span>
+											</div>
+											<div class="wm-musicbeat-link">
+												<a href="#" class="wm-bayticket-radius-btn wm-bgcolor-two"><span><i class="flaticon-interface-1"></i> Buy Tickets</span></a>
+												<a href="#" class="wm-info-btn">Info <i class="flaticon-arrows"></i></a>
+											</div>
+										</div>
+									</li>
+									<li class="col-md-12">
+										<div class="wm-musicbeat-dates-wrap">
+											<figure><a href="#"><img src="extra-images/musicbeat-dates-2.jpg" alt=""> <span class="wm-black-layer"></span></a></figure>
+											<time datetime="2008-02-14 20:00">21 <span>March <small>Wed</small></span></time>
+											<div class="wm-musicbeat-title">
+												<h2><a href="#">Carter-Finley Stadium</a></h2>
+												<span>Raleigh, NC</span>
+											</div>
+											<div class="wm-musicbeat-link">
+												<a href="#" class="wm-bayticket-radius-btn wm-bgcolor-two"><span><i class="flaticon-interface-1"></i> Buy Tickets</span></a>
+												<a href="#" class="wm-info-btn">Info <i class="flaticon-arrows"></i></a>
+											</div>
+										</div>
+									</li>
+									<li class="col-md-12">
+										<div class="wm-musicbeat-dates-wrap">
+											<figure><a href="#"><img src="extra-images/musicbeat-dates-3.jpg" alt=""> <span class="wm-black-layer"></span></a></figure>
+											<time datetime="2008-02-14 20:00">31 <span>March <small>Thu</small></span></time>
+											<div class="wm-musicbeat-title">
+												<h2><a href="#">Qualcomm Stadium</a></h2>
+												<span>San Diego, CA</span>
+											</div>
+											<div class="wm-musicbeat-link">
+												<a href="#" class="wm-bayticket-radius-btn wm-bgcolor-two"><span><i class="flaticon-interface-1"></i> Buy Tickets</span></a>
+												<a href="#" class="wm-info-btn">Info <i class="flaticon-arrows"></i></a>
+											</div>
+										</div>
+									</li>
+									<li class="col-md-12">
+										<div class="wm-musicbeat-dates-wrap">
+											<figure><a href="#"><img src="extra-images/musicbeat-dates-4.jpg" alt=""> <span class="wm-black-layer"></span></a></figure>
+											<time datetime="2008-02-14 20:00">14 <span>April <small>Thu</small></span></time>
+											<div class="wm-musicbeat-title">
+												<h2><a href="#">CenturyLink Field</a></h2>
+												<span>Toronto, ON</span>
+											</div>
+											<div class="wm-musicbeat-link">
+												<a href="#" class="wm-bayticket-radius-btn wm-bgcolor-two"><span><i class="flaticon-interface-1"></i> Buy Tickets</span></a>
+												<a href="#" class="wm-info-btn">Info <i class="flaticon-arrows"></i></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="wm-align-center"> <a href="#" class="wm-info-btn">See All Events <i class="flaticon-arrows"></i></a> </div>
+						</div>
+						<!--// Music Beat Dates \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-discography-full">
+				<div class="container">
+					<div class="row">
+
+						<!--// Music Beat Dates \\-->
+						<div class="col-md-12">
+							<div class="wm-fancy-title wm-fancy-darkcolor">
+								<span>latest releases</span>
+								<h2>Discography</h2>
+							</div>
+							<div class="wm-latest-releases-slider">
+								
+								<div class="wm-latest-release-layer">
+									<figure><a href="#"><img src="extra-images/latestreleases-1.jpg" alt=""></a> <figcaption><a href="#" class="flaticon-link"></a></figcaption></figure>
+									<time datetime="2008-02-14 20:00">20/11/2015</time>
+									<h4><a href="#">THE COMPLETE POP ALBUMS</a></h4>
+								</div>
+								<div class="wm-latest-release-layer">
+									<figure><a href="#"><img src="extra-images/latestreleases-2.jpg" alt=""></a> <figcaption><a href="#" class="flaticon-link"></a></figcaption></figure>
+									<time datetime="2008-02-14 20:00">12/12/2015</time>
+									<h4><a href="#">CINEMA HITS</a></h4>
+								</div>
+								<div class="wm-latest-release-layer">
+									<figure><a href="#"><img src="extra-images/latestreleases-3.jpg" alt=""></a> <figcaption><a href="#" class="flaticon-link"></a></figcaption></figure>
+									<time datetime="2008-02-14 20:00">03/01/2016</time>
+									<h4><a href="#">MANON LESCAUT</a></h4>
+								</div>
+								<div class="wm-latest-release-layer">
+									<figure><a href="#"><img src="extra-images/latestreleases-4.jpg" alt=""></a> <figcaption><a href="#" class="flaticon-link"></a></figcaption></figure>
+									<time datetime="2008-02-14 20:00">12/01/2016</time>
+									<h4><a href="#">THE ULTIMATE COLLECTION</a></h4>
+								</div>
+								<div class="wm-latest-release-layer">
+									<figure><a href="#"><img src="extra-images/latestreleases-2.jpg" alt=""></a> <figcaption><a href="#" class="flaticon-link"></a></figcaption></figure>
+									<time datetime="2008-02-14 20:00">12/12/2015</time>
+									<h4><a href="#">CINEMA HITS</a></h4>
+								</div>
+
+							</div>
+						</div>
+						<!--// Music Beat Dates \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-contdown-full">
+				<span class="wm-light-layer"></span>
+				<div class="container">
+					<div class="row">
+
+						<!--// Music Beat Dates \\-->
+						<div class="col-md-12">
+							
+							<div class="wm-event-timer">
+								<div class="wm-fancy-title wm-fancy-darkcolor">
+									<span>next event</span>
+									<h2>Carter-Finley Stadium</h2>
+								</div>
+								<div id="wm-countdown"></div>
+							</div>
+							
+						</div>
+						<!--// Music Beat Dates \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-ourvideo-full">
+				<div class="container">
+					<div class="row">
+
+						<!--// Music Beat Dates \\-->
+						<div class="col-md-12">
+							
+							<div class="wm-fancy-title wm-fancy-darkcolor">
+								<span>latest Video Releases</span>
+								<h2>Our Videos</h2>
+							</div>
+							<div class="wm-ourvideo-slider">
+								<div class="wm-ourvideo-wrap">
+									<figure><iframe src="https://player.vimeo.com/video/5841704?color=ffffff&portrait=0" height="340"></iframe></figure>
+									<div class="wm-ourvideo-text">
+										<time datetime="2008-02-14 20:00">12/12/2015</time>
+										<h4><a href="#">No.39: DMX - 'X Gon' Give It To Ya'</a></h4>
+										<p>We can thank Deadpool for this entry... A sentence we never thought we'd say! After this huge tune appeared in the trailer for the movie, people had to get on it!</p>
+									</div>
+								</div>
+								<div class="wm-ourvideo-wrap">
+									<figure><iframe src="https://player.vimeo.com/video/3832662?color=ffffff&title=0&byline=0&portrait=0" height="340"></iframe></figure>
+									<div class="wm-ourvideo-text">
+										<time datetime="2008-02-14 20:00">13/12/2016</time>
+										<h4><a href="#">No.39: DMX - 'X Gon' Give'</a></h4>
+										<p>We can thank Deadpool for this entry... A sentence we never thought we'd say! After this huge tune appeared in the trailer for the movie, people had to get on it!</p>
+									</div>
+								</div>
+								<div class="wm-ourvideo-wrap">
+									<figure><iframe src="https://player.vimeo.com/video/5841704?color=ffffff&portrait=0" height="340"></iframe></figure>
+									<div class="wm-ourvideo-text">
+										<time datetime="2008-02-14 20:00">12/12/2015</time>
+										<h4><a href="#">No.39: DMX - 'X Gon' Give It To Ya'</a></h4>
+										<p>We can thank Deadpool for this entry... A sentence we never thought we'd say! After this huge tune appeared in the trailer for the movie, people had to get on it!</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<!--// Music Beat Dates \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-masgallery-full">
+				<div class="container-fluid">
+					<div class="row">
+
+						<!--// Masonry Gallery \\-->
+						<div class="wm-masonry-gallery">
+							<ul>
+								<li class="col-md-3"><a href="#"><img src="extra-images/mas-gallery-1.jpg" alt=""></a>
+									<div class="wm-masgallery-caption">
+										<span class="wm-effect-layer"></span>
+										<div class="wm-masgallery-caption-inn">
+											<h2><a href="#">Levi's Stadium - Santa Clara, CA</a></h2>
+											<time datetime="2008-02-14 20:00">13/02/2016 <i class="flaticon-arrows"></i></time>
+										</div>
+									</div>
+								</li>
+								<li class="col-md-3"><a href="#"><img src="extra-images/mas-gallery-2.jpg" alt=""></a>
+									<div class="wm-masgallery-caption">
+										<span class="wm-effect-layer"></span>
+										<div class="wm-masgallery-caption-inn">
+											<h2><a href="#">Levi's Stadium - Santa Clara, CA</a></h2>
+											<time datetime="2008-02-14 20:00">13/02/2016 <i class="flaticon-arrows"></i></time>
+										</div>
+									</div>
+								</li>
+								<li class="col-md-6"><a href="#"><img src="extra-images/mas-gallery-3.jpg" alt=""></a>
+									<div class="wm-masgallery-caption">
+										<span class="wm-effect-layer"></span>
+										<div class="wm-masgallery-caption-inn">
+											<h2><a href="#">Levi's Stadium - Santa Clara, CA</a></h2>
+											<time datetime="2008-02-14 20:00">13/02/2016 <i class="flaticon-arrows"></i></time>
+										</div>
+									</div>
+								</li>
+								<li class="col-md-3"><a href="#"><img src="extra-images/mas-gallery-4.jpg" alt=""></a>
+									<div class="wm-masgallery-caption">
+										<span class="wm-effect-layer"></span>
+										<div class="wm-masgallery-caption-inn">
+											<h2><a href="#">Levi's Stadium - Santa Clara, CA</a></h2>
+											<time datetime="2008-02-14 20:00">13/02/2016 <i class="flaticon-arrows"></i></time>
+										</div>
+									</div>
+								</li>
+								<li class="col-md-6"><a href="#"><img src="extra-images/mas-gallery-5.jpg" alt=""></a>
+									<div class="wm-masgallery-caption">
+										<span class="wm-effect-layer"></span>
+										<div class="wm-masgallery-caption-inn">
+											<h2><a href="#">Levi's Stadium - Santa Clara, CA</a></h2>
+											<time datetime="2008-02-14 20:00">13/02/2016 <i class="flaticon-arrows"></i></time>
+										</div>
+									</div>
+								</li>
+								<li class="col-md-3"><a href="#"><img src="extra-images/mas-gallery-6.jpg" alt=""></a>
+									<div class="wm-masgallery-caption">
+										<span class="wm-effect-layer"></span>
+										<div class="wm-masgallery-caption-inn">
+											<h2><a href="#">Levi's Stadium - Santa Clara, CA</a></h2>
+											<time datetime="2008-02-14 20:00">13/02/2016 <i class="flaticon-arrows"></i></time>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!--// Masonry Gallery \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-blognews-full">
+				<div class="container">
+					<div class="row">
+
+						<!--// Latest News \\-->
+						<div class="col-md-12">
+							<div class="wm-fancy-title wm-fancy-darkcolor">
+								<span>Blog Posts</span>
+								<h2>Latest News</h2>
+							</div>
+							<div class="wm-news wm-news-grid">
+								<ul class="row">
+									<li class="col-md-4">
+										<figure><a href="#"><img src="extra-images/latest-news-1.jpg" alt=""></a>
+											<figcaption>
+												<a href="#"><i class="flaticon-link"></i> More Details</a>
+											</figcaption>
+										</figure>
+										<div class="wm-news-grid-text">
+											<time datetime="2008-02-14 20:00">28/02/2016 <span>By Janet74</span></time>
+											<h4><a href="#">No.39: DMX - 'X Gon' Give It To Ya'</a></h4>
+											<p>Following the recent tragedy, fans - new and old have been showing & gratitude...</p>
+											<a class="wm-info-btn" href="#">Info <i class="flaticon-arrows"></i></a>
+										</div>
+									</li>
+									<li class="col-md-4">
+										<figure><a href="#"><img src="extra-images/latest-news-2.jpg" alt=""></a>
+											<figcaption>
+												<a href="#"><i class="flaticon-link"></i> More Details</a>
+											</figcaption>
+										</figure>
+										<div class="wm-news-grid-text">
+											<time datetime="2008-02-14 20:00">27/02/2016 <span>By cameronj</span></time>
+											<h4><a href="#">The 1975 - 'Somebody Else'</a></h4>
+											<p>They're back. And they mean business. It's been three years the band's so...</p>
+											<a class="wm-info-btn" href="#">Info <i class="flaticon-arrows"></i></a>
+										</div>
+									</li>
+									<li class="col-md-4">
+										<figure><a href="#"><img src="extra-images/latest-news-3.jpg" alt=""></a>
+											<figcaption>
+												<a href="#"><i class="flaticon-link"></i> More Details</a>
+											</figcaption>
+										</figure>
+										<div class="wm-news-grid-text">
+											<time datetime="2008-02-14 20:00">26/02/2016 <span>By danagorj</span></time>
+											<h4><a href="#">Sia feat. Sean Paul - 'Cheap Thrills'</a></h4>
+											<p>After that Carpool Karaoke session, it was BLATANTLY that Sia was going to make...</p>
+											<a class="wm-info-btn" href="#">Info <i class="flaticon-arrows"></i></a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--// Latest News \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-artist-slider-full">
+				<div class="container">
+					<div class="row">
+
+						<!--// Our BandMembers \\-->
+						<div class="col-md-12">
+							<div class="wm-fancy-title">
+								<span>our professionals</span>
+								<h2>Our Band Members</h2>
+							</div>
+							<div class="wm-artist-grid wm-artist-slider">
+								<div class="wm-artist-slider-layer">
+									<figure><a href="#"><img src="extra-images/artist-grid-1.jpg" alt=""></a>
+										<figcaption><a href="#"><i class="flaticon-link"></i></a></figcaption>
+									</figure>
+									<div class="wm-artist-title">
+										<h2><a href="#">Jenny James Young</a></h2>
+										<span>Rhythm guitarist</span>
+									</div>
+								</div>
+								<div class="wm-artist-slider-layer">
+									<figure><a href="#"><img src="extra-images/artist-grid-2.jpg" alt=""></a>
+										<figcaption><a href="#"><i class="flaticon-link"></i></a></figcaption>
+									</figure>
+									<div class="wm-artist-title">
+										<h2><a href="#">Angus Jeremy Young</a></h2>
+										<span> Backing vocalist</span>
+									</div>
+								</div>
+								<div class="wm-artist-slider-layer">
+									<figure><a href="#"><img src="extra-images/artist-grid-3.jpg" alt=""></a>
+										<figcaption><a href="#"><i class="flaticon-link"></i></a></figcaption>
+									</figure>
+									<div class="wm-artist-title">
+										<h2><a href="#">Briennne Carla Johnson</a></h2>
+										<span>Lead singer</span>
+									</div>
+								</div>
+								<div class="wm-artist-slider-layer">
+									<figure><a href="#"><img src="extra-images/artist-grid-4.jpg" alt=""></a>
+										<figcaption><a href="#"><i class="flaticon-link"></i></a></figcaption>
+									</figure>
+									<div class="wm-artist-title">
+										<h2><a href="#">Cliffany Jana Williams</a></h2>
+										<span>Bassist</span>
+									</div>
+								</div>
+								<div class="wm-artist-slider-layer">
+									<figure><a href="#"><img src="extra-images/artist-grid-4.jpg" alt=""></a>
+										<figcaption><a href="#"><i class="flaticon-link"></i></a></figcaption>
+									</figure>
+									<div class="wm-artist-title">
+										<h2><a href="#">Jenny James Young</a></h2>
+										<span>Rhythm guitarist</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--// Our BandMembers \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-shop-medium-full">
+				<div class="container">
+					<div class="row">
+
+						<!--// Our BandMembers \\-->
+						<div class="col-md-12">
+							<div class="wm-fancy-title">
+								<span>Shop Today</span>
+								<h2>Check Our Goods</h2>
+							</div>
+							<div class="wm-shop wm-shop-medium">
+								<div class="wm-shop-medium-slide">
+									<figure><a href="#"><img src="extra-images/shop-medium-1.jpg" alt=""></a></figure>
+									<div class="wm-shop-medium-text">
+										<span>$15.99</span>
+										<h2><a href="#">Music Beat Face Cream</a></h2>
+										<small>Accessories</small>
+										<div class="wm-shop-links">
+											<a href="#" class="wm-bordercolor-two wm-color-two"><i class="flaticon-silhouette-1"></i></a>
+											<a href="#" class="wm-bordercolor-two wm-color-two"><i class="flaticon-link"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="wm-shop-medium-slide">
+									<figure><a href="#"><img src="extra-images/shop-medium-2.jpg" alt=""></a></figure>
+									<div class="wm-shop-medium-text">
+										<span>$27.00</span>
+										<h2><a href="#">All Day Music Beat Bag</a></h2>
+										<small>Bags</small>
+										<div class="wm-shop-links">
+											<a href="#" class="wm-bordercolor-two wm-color-two"><i class="flaticon-silhouette-1"></i></a>
+											<a href="#" class="wm-bordercolor-two wm-color-two"><i class="flaticon-link"></i></a>
+										</div>
+									</div>
+								</div>
+								<div class="wm-shop-medium-slide">
+									<figure><a href="#"><img src="extra-images/shop-medium-1.jpg" alt=""></a></figure>
+									<div class="wm-shop-medium-text">
+										<span>$15.99</span>
+										<h2><a href="#">Music Beat Face Cream</a></h2>
+										<small>Accessories</small>
+										<div class="wm-shop-links">
+											<a href="#" class="wm-bordercolor-two wm-color-two"><i class="flaticon-silhouette-1"></i></a>
+											<a href="#" class="wm-bordercolor-two wm-color-two"><i class="flaticon-link"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--// Our BandMembers \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+		</div>
+		<!--// Main Content \\-->
+
+		<!--// Footer \\-->
+		<footer id="wm-footer" class="footer-three">
+
+			<!--// Footer Widget \\-->
+			<div class="wm-footer-widgets">
+				<div class="container">
+					<div class="row">
+						<aside class="col-md-3 widget widget_itune_chart">
+							<div class="wm-footer-widget-title"> <h2>iTunes Chart</h2> </div>
+							<ul>
+								<li>
+									<div class="wm-chart-wrap">
+										<span class="wm-color-two">7 Years</span>
+										<h5><a href="#">Lukas Graham</a></h5>
+										<a href="#" class="wm-important-itune wm-color-two wm-bordercolor-two">Explicit</a>
+									</div>
+								</li>
+								<li>
+									<div class="wm-chart-wrap">
+										<span class="wm-color-two">Work (feat. Drake)</span>
+										<h5><a href="#">Rihanna</a></h5>
+									</div>
+								</li>
+								<li>
+									<div class="wm-chart-wrap">
+										<span class="wm-color-two">Lush Life</span>
+										<h5><a href="#">Zara Larsson</a></h5>
+										<a href="#" class="wm-important-itune wm-color-two wm-bordercolor-two">Explicit</a>
+									</div>
+								</li>
+								<li>
+									<div class="wm-chart-wrap">
+										<span class="wm-color-two">Love Yourself</span>
+										<h5><a href="#">Justin Bieber</a></h5>
+									</div>
+								</li>
+							</ul>
+						</aside>
+						<aside class="col-md-3 widget widget_trending_artist">
+							<div class="wm-footer-widget-title"> <h2>Trending Artists</h2> </div>
+							<ul>
+								<li>
+									<figure><a href="#"><img src="extra-images/trending-artist-1.jpg" alt=""></a> <figcaption><a href="#" class="flaticon-link"></a></figcaption></figure>
+									<div class="wm-trending-text">
+										<h5><a href="#">Fall Out Boy</a></h5>
+										<span>21 Albums</span>
+									</div>
+								</li>
+								<li>
+									<figure><a href="#"><img src="extra-images/trending-artist-2.jpg" alt=""></a> <figcaption><a href="#" class="flaticon-link"></a></figcaption></figure>
+									<div class="wm-trending-text">
+										<h5><a href="#">Neon Jungle</a></h5>
+										<span>19 Albums</span>
+									</div>
+								</li>
+								<li>
+									<figure><a href="#"><img src="extra-images/trending-artist-3.jpg" alt=""></a> <figcaption><a href="#" class="flaticon-link"></a></figcaption></figure>
+									<div class="wm-trending-text">
+										<h5><a href="#">Nico & Vinzney</a></h5>
+										<span>15 Albums</span>
+									</div>
+								</li>
+							</ul>
+						</aside>
+						<aside class="col-md-3 widget widget_twitter_feed">
+							<div class="wm-footer-widget-title"> <h2>Twitter Feed</h2> </div>
+							<ul>
+								<li>
+									<i class="flaticon-social-2 wm-color-two"></i>
+									<p>Let's all get to know the British rock Vodafone Big Top 40... <span>4 days ago</span></p>
+								</li>
+								<li>
+									<i class="flaticon-social-2 wm-color-two"></i>
+									<p>You ready for the names? Okay they are... <span>5 days ago</span></p>
+								</li>
+								<li>
+									<i class="flaticon-social-2 wm-color-two"></i>
+									<p>Okay they are...Oliver Sykes, Lee Malia, Matt and Jordan Fish... <span>1 Week ago</span></p>
+								</li>
+							</ul>
+						</aside>
+						<aside class="col-md-3 widget widget_latest_news">
+							<div class="wm-footer-widget-title"> <h2>Latest News</h2> </div>
+							<ul>
+								<li>
+									<figure><a href="#"><img src="extra-images/latest-newwidget-1.jpg" alt=""></a>
+										<figcaption>
+											<h6><a href="#">Bring Me Horizon</a></h6>
+											<span>28/02/2016</span>
+											<a href="#" class="wm-widget-readmore">Read More <i class="flaticon-arrows"></i></a>
+										</figcaption>
+									</figure>
+								</li>
+								<li>
+									<figure><a href="#"><img src="extra-images/latest-newwidget-2.jpg" alt=""></a>
+										<figcaption>
+											<h6><a href="#">'Drown' right here</a></h6>
+											<span>27/02/2016</span>
+											<a href="#" class="wm-widget-readmore">Read More <i class="flaticon-arrows"></i></a>
+										</figcaption>
+									</figure>
+								</li>
+								<li>
+									<figure><a href="#"><img src="extra-images/latest-newwidget-3.jpg" alt=""></a>
+										<figcaption>
+											<h6><a href="#">DAB Digital Radio</a></h6>
+											<span>26/02/2016</span>
+											<a href="#" class="wm-widget-readmore">Read More <i class="flaticon-arrows"></i></a>
+										</figcaption>
+									</figure>
+								</li>
+							</ul>
+						</aside>
+					</div>
+				</div>
+			</div>
+			<!--// Footer Widget \\-->
+
+			<!--// Footer Bottom Section \\-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="wm-copyright-section">
+							<p>© 2016 MusicBeat, All Right Reserved - by <a href="#" class="wm-color-two">WebMarce</a></p>
+							<a href="#" class="backtop-btn wm-bgcolor-two">go top <i class="flaticon-arrows"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Footer Bottom Section \\-->
+
+			<!--// Player \\-->
+			<div class="wm-footer-player">
+				
+				<div id="jquery_jplayer_2" class="jp-jplayer"></div>
+				<div id="jp_container_2" class="jp-audio" role="application" aria-label="media player">
+					<div class="jp-type-playlist">
+						<div class="jp-playlist">
+							<ul>
+								<li>&nbsp;</li>
+							</ul>
+						</div>
+						<div class="jp-gui jp-interface">
+							<span class="jp-stop wm-bgcolor"><i class="flaticon-power"></i></span>
+							<div id="current-track1" class="song-title">Catch & Release (Deepend)</div>
+							<div class="jp-controls">
+								<span class="jp-shuffle"><i class="flaticon-arrows-2"></i></span>
+								<span class="wm-bgcolor-one jp-previous"><i class="flaticon-arrows-1"></i></span>
+								<span class="jp-play"><i class="fa fa-pause"></i> <i class="fa fa-play"></i></span>
+								<span class="wm-bgcolor-one jp-next"><i class="flaticon-arrows-1"></i></span>
+								<span class="jp-repeat"><i class="flaticon-arrows-3"></i></span>
+							</div>
+							<div class="wm-player-wrap">
+								<div class="jp-progress">
+									<div class="jp-seek-bar">
+										<div class="jp-play-bar"></div>
+									</div>
+								</div>
+								<div class="jp-volume-controls">
+									<span class="jp-mute"><i class="fa fa-volume-up"></i> <i class="fa fa-volume-off"></i></span>
+									<div class="jp-volume-bar">
+										<div class="jp-volume-bar-value"></div>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="wm-playlist-btn"><i class="flaticon-music-1"></i></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!--// Player \\-->
+
+		</footer>
+		<!--// Footer \\-->
+
+	<div class="clearfix"></div>
+    </div>
+    <!--// Main Wrapper \\-->
+
+	<!-- jQuery (necessary for JavaScript plugins) -->
+	<script type="text/javascript" src="script/jquery.js"></script>
+	<script type="text/javascript" src="script/modernizr.js"></script>
+	<script type="text/javascript" src="script/jquery-ui.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/jquery.prettyphoto.js"></script>
+    <script type="text/javascript" src="script/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="script/fitvideo.js"></script>
+    <script type="text/javascript" src="script/skills.js"></script>
+    <script type="text/javascript" src="script/slick.slider.min.js"></script>
+    <script type="text/javascript" src="script/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="script/jplayer.playlist.js"></script>
+    <script type="text/javascript" src="script/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="script/moment.min.js"></script>
+    <script type="text/javascript" src="script/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="script/waypoints-min.js"></script>
+    <script type="text/javascript" src="script/isotope.min.js"></script>
+    <script type="text/javascript" src="script/functions.js"></script>
+    <script type="text/javascript" src="script/jplayer.functions.js"></script>
+
+  </body>
+</html>

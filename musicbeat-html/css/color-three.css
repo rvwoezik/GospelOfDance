@@ -1,0 +1,13 @@
+
+.wm-color-three, .wm-colorhover-three:hover,.wm-fancy-title4 h2,.wm-bandmember-slider .slick-arrow:hover,.wm-blog-grid-slider .slick-arrow:hover,.wm-shopgrid-link a:hover,
+.wm-shop-grid-slider .slick-arrow:hover,.footer-four .wm-footer-player .jp-stop {
+    color: #b73d6d;
+}
+.wm-bgcolor-three, .wm-bgcolorhover-three:hover,.wm-bandmember-wrap figcaption:before,.wm-bandmember-wrap figcaption:after,.wm-latest-album-grid-text a:before,.wm-latest-album-grid-text a:after,
+.wm-slider-nav .slick-arrow,.wm-blog-grid-wrap figcaption:before,.wm-shop-grid-wrap figcaption:before,.wm-shop-grid-wrap figcaption:after,.widget_latest_event ul li:hover .wm-widget-time,
+.footer-four .widget_artists ul li:hover .wm-newsinfo > a,.footer-four .wm-newslatter-section form input[type="submit"],.footer-four .wm-footer-player {
+    background-color: #b73d6d;
+}
+.wm-bordercolor-three, .wm-bordercolorhover-three:hover,.footer-four .widget_artists ul li:hover .wm-newsinfo > a {
+    border-color: #b73d6d;
+}

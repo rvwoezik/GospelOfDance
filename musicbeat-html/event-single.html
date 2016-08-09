@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Event Single Page</title>
+	<!-- Css Files -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+    <link href="css/color-one.css" rel="stylesheet">
+    <link href="css/color-two.css" rel="stylesheet">
+    <link href="css/color-three.css" rel="stylesheet">
+    <link href="css/slick-slider.css" rel="stylesheet">
+    <link href="css/prettyphoto.css" rel="stylesheet">
+    <link href="css/jplayer.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+<!--// Main Wrapper \\-->
+<div class="wm-main-wrapper"> 
+  <!--// Header \\-->
+  <header id="wm-header" class="wm-header-two">
+			
+	<!--// Top Strip \\-->
+	<div class="wm-topstrip">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<ul class="wm-strip-options">
+						<li><a href="#"><i class="flaticon-photo"></i> Albums</a></li>
+						<li><a href="#"><i class="flaticon-multimedia"></i> Artists</a></li>
+						<li><a href="#"><i class="flaticon-silhouette"></i> Releases</a></li>
+						<li><a href="#"><i class="flaticon-sound"></i> Music Festivals</a></li>
+						<li><a href="#"><i class="flaticon-video"></i> Music Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-md-5">
+					<div class="wm-right-section">
+						<a class="wm-text-cart" href="#"><i class="flaticon-tool"></i> <span>0 items</span></a>
+						<div class="wm-cart-box">
+							<h2>3 items in the cart</h2>
+							<ul>
+								<li id="wmremove1">
+									<figure><a href="#"><img src="extra-images/cartbox-1.jpg" alt=""></a></figure>
+									<div class="wm-cartbox-text">
+										<h6><a href="#">1 x Golden Trumpet</a></h6>
+										<div class="wm-rating"><span class="wm-rating-box" style="width:45%"></span></div>
+										<small>$32.00</small>
+										<a href="#" class="wm-close-cart" id="wmbtnremove1"><i class="fa fa-times"></i></a>
+									</div>
+								</li>
+								<li id="wmremove2">
+									<figure><a href="#"><img src="extra-images/cartbox-2.jpg" alt=""></a></figure>
+									<div class="wm-cartbox-text">
+										<h6><a href="#">2 x Electric Guitar</a></h6>
+										<div class="wm-rating"><span class="wm-rating-box" style="width:45%"></span></div>
+										<small>$43.99</small>
+										<a href="#" class="wm-close-cart" id="wmbtnremove2"><i class="fa fa-times"></i></a>
+									</div>
+								</li>
+								<li id="wmremove3">
+									<figure><a href="#"><img src="extra-images/cartbox-3.jpg" alt=""></a></figure>
+									<div class="wm-cartbox-text">
+										<h6><a href="#">1 x Bass Amps</a></h6>
+										<div class="wm-rating"><span class="wm-rating-box" style="width:45%"></span></div>
+										<small>$89.99</small>
+										<a href="#" class="wm-close-cart" id="wmbtnremove3"><i class="fa fa-times"></i></a>
+									</div>
+								</li>
+							</ul>
+							<p>Subtotal <span>$165.98</span></p>
+							<div class="wm-cart-link"><a href="#" class="wm-cartbox-btn"><i class="flaticon-tool"></i> checkout</a></div>
+						</div>
+						<form class="wm-search">
+							<i class="flaticon-search"></i>
+							<input type="text" value="Search..." onblur="if(this.value == '') { this.value ='Search...'; }" onfocus="if(this.value =='Search...') { this.value = ''; }">
+							<input type="submit" value="">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--// Top Strip \\-->
+
+	<!--// Main Header \\-->
+	<div class="wm-main-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3"><a href="index.html" class="wm-logo"><img src="images/logo2.png" alt=""></a></div>
+				<div class="col-md-9">
+					<!--// Navigation \\-->
+					<nav class="navbar navbar-default">
+					    <div class="navbar-header">
+					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					      </button>
+					    </div>
+					    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+					      <ul class="nav navbar-nav">
+					        <li class="active"><a href="#">Home</a>
+					        	<ul class="wm-dropdown-menu">
+					        		<li><a href="index.html">MusciBeat Home V1</a></li>
+					        		<li><a href="index-two.html">MusciBeat Home V2</a></li>
+					        		<li><a href="index-three.html">MusciBeat Home V3</a></li>
+					        		<li><a href="index-four.html">MusciBeat Home V4</a></li>
+					        	</ul>
+					        </li>
+					        <li ><a href="#">Events</a>
+					        	<ul class="wm-dropdown-menu">
+					        		<li><a href="event-grid.html">Event Grid</a></li>
+					        		<li><a href="event-list.html">Event List</a></li>
+					        		<li><a href="events-calendar.html">Event Calendar</a></li>
+					        		<li><a href="event-single.html">Event Single</a></li>
+					        	</ul>
+					        </li>
+					        <li><a href="#">Albums</a>
+					        	<ul class="wm-dropdown-menu">
+					        		<li><a href="album-grid.html">Albums Grid</a></li>
+					        		<li><a href="album-grid-no-filterable.html">Albums Grid W/out/FilterAble</a></li>
+					        		<li><a href="album-grid-wsidebar.html">Albums Grid W/SideBar</a></li>
+					        		<li><a href="album-list.html">Albums List</a></li>
+					        		<li><a href="album-list-no-sidebar.html">Albums List W/Out/SideBar</a></li>
+					        		<li><a href="album-single-post.html">Albums Single Post</a></li>
+					        	</ul>
+					        </li>
+					        <li class="wm-megamenu-li"><a href="#">Pages</a>
+					        	<ul class="wm-megamenu">
+					        		<li class="row">
+					        			<div class="col-md-2">
+					        				<h4>Link 1</h4>
+					        				<ul class="wm-megalist">
+					        					<li><a href="about-us.html">About Us</a></li>
+					        					<li><a href="our-gallery.html">Our Gallery</a></li>
+					        					<li><a href="our-price.html">Our PricePlan</a></li>
+					        					<li><a href="our-services.html">Our Services</a></li>
+					        					<li><a href="search-result.html">Search Result</a></li>
+					        				</ul>
+					        			</div>
+					        			<div class="col-md-2">
+					        				<h4>Link 2</h4>
+					        				<ul class="wm-megalist">
+					        					<li><a href="sitemap.html">SiteMap</a></li>
+					        					<li><a href="faq.html">Faq</a></li>
+					        					<li><a href="faqv2.html">Faq V2</a></li>
+					        					<li><a href="404-page.html">404 Page</a></li>
+					        					<li><a href="coming-soon.html">Coming Soon Page</a></li>
+					        				</ul>
+					        			</div>
+					        			<div class="col-md-2">
+					        				<h4>Artists</h4>
+					        				<ul class="wm-megalist">
+					        					<li><a href="artist-grid.html">Artists Grid</a></li>
+					        					<li><a href="artist-grid-wsidebar.html">Artists Grid W/SideBar</a></li>
+					        					<li><a href="artist-list.html">Artists List</a></li>
+					        					<li><a href="artist-list-wsidebar.html">Artists List W/SideBar</a></li>
+					        					<li><a href="artist-single.html">Artists Single</a></li>
+					        				</ul>
+					        			</div>
+					        			<div class="col-md-6">
+					        				<a href="#" class="wm-thumbnail">
+												<img src="extra-images/jplayer-poster-1.jpg" alt="" />
+											</a>
+					        			</div>
+					        		</li>
+					        	</ul>
+					        </li>
+					        <li><a href="#">Blog</a>
+					        	<ul class="wm-dropdown-menu">
+					        		<li><a href="blog-large.html">Blog Large</a></li>
+					        		<li><a href="blog-mediam.html">Blog Medium</a></li>
+					        		<li><a href="blog-single.html">Blog Detail</a></li>
+					        	</ul>
+					        </li>
+					        <li><a href="#">Shop</a>
+					        	<ul class="wm-dropdown-menu">
+					        		<li><a href="shop-grid.html">Shop Grid</a></li>
+					        		<li><a href="shop-list.html">Shop List</a></li>
+					        		<li><a href="shop-single.html">Shop Detail</a></li>
+					        	</ul>
+					        </li>
+					        <li><a href="#">Contact</a>
+					        	<ul class="wm-dropdown-menu">
+					        		<li><a href="contact-us.html">Contact Us View1</a></li>
+					        		<li><a href="contact-us-two.html">Contact Us View2</a></li>
+					        	</ul>
+					        </li>
+					      </ul>
+					    </div>
+					</nav>
+					<!--// Navigation \\-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--// Main Header \\-->
+
+  </header>
+  <!--// Header \\--> 
+
+  <!--// Mini HEader \\-->
+  <div class="wm-mini-header">
+  	<span class="wm-black-transparent"></span>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12">
+  				<div class="wm-page-heading">
+  					<h1>Events Single Post</h1>
+  					<p>Check out our event</p>
+  				</div>
+  				<div class="clearfix"></div>
+  				<ul class="wm-breadcrumb">
+  					<li><a href="#">Home</a></li>
+  					<li>Events Single Post</li>
+  				</ul>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+  <!--// Mini HEader \\-->
+
+  <!--// Main Content \\-->
+  <div class="wm-main-content">
+    <!--// Main Section \\-->
+    <div class="wm-main-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="wm-event-single">
+                        <figure>
+                            <a href="#"><img src="extra-images/event-detail.jpg" alt=""></a> <span class="wm-open-feature">Open</span> </figure>
+                        <div class="wm-event-text"> <span>Age Restriction</span> <small>16+</small>
+                            <h2>United Center - Chicago, IL</h2>
+                            <time datetime="2016-02-14 20:00"><i class="flaticon-time"></i> Starts from: Sunday, March 27, 2016</time>
+                            <ul>
+                                <li><i class="flaticon-clock"></i>Door Opens @ 09:30pm</li>
+                                <li><i class="fa fa-microphone"></i>Show Starts @ 10:15pm</li>
+                            </ul>
+                            <p>Check out the setlist and some media from what will hopefully be the first of many West Side events with these musicians as the backbone. </p>
+                            <div class="wm-ticket">
+                                <p>tickets from</p>
+                                <em>$29.99</em> </div>
+                            <div class="wm-reserve-location"> <i class="flaticon-location"></i> <span>Manchester Etihad Stadium, UK - Manchester,<br>
+                  Great Britain</span> </div>
+                        </div>
+                    </div>
+                    <div class="wm-event-map">
+                        <div id="map"></div>
+                    </div>
+                    <div class="wm-tabs">
+                        <ul role="tablist" class="wm-tabs-wrap">
+                            <li class="active" role="presentation"><a data-toggle="tab" role="tab" href="#description" aria-expanded="true"> Description</a></li>
+                            <li role="presentation" class=""><a data-toggle="tab" role="tab" href="#ticket" aria-expanded="false">ticket information details</a></li>
+                            <li role="presentation" class=""><a data-toggle="tab" role="tab" href="#event" aria-expanded="false">event performers</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="description">
+                                <div class="wm-description-section">
+                                    <p>Joe Bithorn grew up in Manhattan and Long Island where he was exposed to a variety of music including jazz, Latin, classical and more. By age 3, his musical father taught the children how to sing harmony.</p>
+                                    <p>He was profoundly influenced by the experiences he had at Carnegie Hall through his Mom who worked with the Festival Casals. Thanks to The Beatles appearance on Ed Sullivan, Joe took a strong interest in the guitar.</p>
+                                    <ul>
+                                        <li>Minimum Age Restriction 8 years</li>
+                                        <li>Under 14s must be accompanied by an adult over 18</li>
+                                        <li>Under 25s require ID to purchase Cigrates</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="ticket">
+                                <div class="wm-accordian-element">
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="wm-ticket-headings">
+                                            <ul>
+                                                <li><span>Ticket Type</span></li>
+                                                <li><span>Total Tickets</span></li>
+                                                <li><span>Tickets Deadline</span></li>
+                                                <li><span>Price</span></li>
+                                            </ul>
+                                        </div>
+                                        <a class="panel panel-default" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <div class="panel-heading" role="tab">
+                                                <div class="wm-ticket-deadline">
+                                                    <ul>
+                                                        <li><span>AURA Music & Arts 2016</span></li>
+                                                        <li><span>750 Tickets</span></li>
+                                                        <li><span>02/04/2016</span></li>
+                                                        <li><span>$24.99</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+                                                <div class="panel-body">
+                                                    <p>Last night Spin Cycle Presents produced one helluva jam session in Santa Monica, CA. It featured some of the community finest musicians in an intimate 800-1000 person venue aptly named TRiP.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a class="panel panel-default collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <div class="panel-heading" role="tab">
+                                                <div class="wm-ticket-deadline">
+                                                    <ul>
+                                                        <li><span>The Lebrewski Cruise 2016</span></li>
+                                                        <li><span>1200 Tickets</span></li>
+                                                        <li><span>23/04/2016</span></li>
+                                                        <li><span>$37.99</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+                                                <div class="panel-body">
+                                                    <p>Last night Spin Cycle Presents produced one helluva jam session in Santa Monica, CA. It featured some of the community finest musicians in an intimate 800-1000 person venue aptly named TRiP.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a class="panel panel-default collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <div class="panel-heading" role="tab">
+                                                <div class="wm-ticket-deadline">
+                                                    <ul>
+                                                        <li><span>Okeechobee Music Festival 2016</span></li>
+                                                        <li><span>1000 Tickets</span></li>
+                                                        <li><span>29/04/2016</span></li>
+                                                        <li><span>$50.00</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+                                                <div class="panel-body">
+                                                    <p>Last night Spin Cycle Presents produced one helluva jam session in Santa Monica, CA. It featured some of the community finest musicians in an intimate 800-1000 person venue aptly named TRiP.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a class="panel panel-default collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            <div class="panel-heading" role="tab">
+                                                <div class="wm-ticket-deadline">
+                                                    <ul>
+                                                        <li><span>CRSSD Festival 2016</span></li>
+                                                        <li><span>600 Tickets</span></li>
+                                                        <li><span>06/05/2016</span></li>
+                                                        <li><span>$45.50</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
+                                                <div class="panel-body">
+                                                    <p>Last night Spin Cycle Presents produced one helluva jam session in Santa Monica, CA. It featured some of the community finest musicians in an intimate 800-1000 person venue aptly named TRiP.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a class="panel panel-default collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            <div class="panel-heading" role="tab">
+                                                <div class="wm-ticket-deadline">
+                                                    <ul>
+                                                        <li><span>BUKU Music and Art 2016</span></li>
+                                                        <li><span>850 Tickets</span></li>
+                                                        <li><span>09/05/2016</span></li>
+                                                        <li><span>$105.00</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+                                                <div class="panel-body">
+                                                    <p>Last night Spin Cycle Presents produced one helluva jam session in Santa Monica, CA. It featured some of the community finest musicians in an intimate 800-1000 person venue aptly named TRiP.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="event">
+                                <div class="wm-event-performer">
+                                    <ul>
+                                        <li>
+                                            <figure>
+                                                <a href="#"><img src="extra-images/evetn-performer-1.jpg" alt=""></a>
+                                            </figure>
+                                            <div class="wm-performer-text">
+                                                <h3><a href="#">Magdalena McNeil</a></h3>
+                                                <span class="wm-color">Vocals, Bass, Piano, Guitar</span>
+                                                <p>A life-long, second-generation Beatles fan, Steve taught himself guitar at 10 listening to them records and by 13 was fronting a Top 40 cover band in his native Philadelphia.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <a href="#"><img src="extra-images/evetn-performer-2.jpg" alt=""></a>
+                                            </figure>
+                                            <div class="wm-performer-text">
+                                                <h3><a href="#">Joey Curatolo</a></h3>
+                                                <span class="wm-color">Bass, Piano, Guitar</span>
+                                                <p>Joey grew up in a Brooklyn household where classical music and opera formed the soundtrack. A natural musician, he was infatuated with them.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <a href="#"><img src="extra-images/evetn-performer-3.jpg" alt=""></a>
+                                            </figure>
+                                            <div class="wm-performer-text">
+                                                <h3><a href="#">Aaron Chiazza</a></h3>
+                                                <span class="wm-color">Rhythm Guitar, Piano, Harmonica</span>
+                                                <p>He performed in local Chicago Beatle bands and learned the harmonica to master some of his early favorites.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <a href="#"><img src="extra-images/evetn-performer-1.jpg" alt=""></a>
+                                            </figure>
+                                            <div class="wm-performer-text">
+                                                <h3><a href="#">Magdalena McNeil</a></h3>
+                                                <span class="wm-color">Vocals, Bass, Piano, Guitar</span>
+                                                <p>A life-long, second-generation Beatles fan, Steve taught himself guitar at 10 listening to them records and by 13 was fronting a Top 40 cover band in his native Philadelphia.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <a href="#"><img src="extra-images/evetn-performer-2.jpg" alt=""></a>
+                                            </figure>
+                                            <div class="wm-performer-text">
+                                                <h3><a href="#">Joey Curatolo</a></h3>
+                                                <span class="wm-color">Bass, Piano, Guitar</span>
+                                                <p>Joey grew up in a Brooklyn household where classical music and opera formed the soundtrack. A natural musician, he was infatuated with them.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <a href="#"><img src="extra-images/evetn-performer-1.jpg" alt=""></a>
+                                            </figure>
+                                            <div class="wm-performer-text">
+                                                <h3><a href="#">Magdalena McNeil</a></h3>
+                                                <span class="wm-color">Vocals, Bass, Piano, Guitar</span>
+                                                <p>A life-long, second-generation Beatles fan, Steve taught himself guitar at 10 listening to them records and by 13 was fronting a Top 40 cover band in his native Philadelphia.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <a href="#"><img src="extra-images/evetn-performer-2.jpg" alt=""></a>
+                                            </figure>
+                                            <div class="wm-performer-text">
+                                                <h3><a href="#">Joey Curatolo</a></h3>
+                                                <span class="wm-color">Bass, Piano, Guitar</span>
+                                                <p>Joey grew up in a Brooklyn household where classical music and opera formed the soundtrack. A natural musician, he was infatuated with them.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wm-timeline">
+                        <div class="wm-blog-heading">
+                            <h2>Event Standings</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <time datetime="2013-04-10 18:30"><span>2012 - 2013</span></time>
+                                <div class="wm-tmicon"></div>
+                                <div class="wm-tmlabel">
+                                    <h2>For All Kings Album</h2>
+                                    <p>Marcus Rezak (Stratosphere All-Stars, FlightWave) and Jesse Clayton (FlightWave) traded ideas all night and somehow infused “Shakedown Street” with some Zappa styled improv.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <time datetime="2013-04-10 18:30"><span>2014 - 2015</span></time>
+                                <div class="wm-tmicon"></div>
+                                <div class="wm-tmlabel">
+                                    <h2>This Unruly Mess I've Made Album </h2>
+                                    <p>Wilco just finished off a two-night run at The Cap in New York and our friend Cory Schwartz was there last night to grab photos from the second show.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <time datetime="2013-04-10 18:30"><span>2015 - Present</span></time>
+                                <div class="wm-tmicon"></div>
+                                <div class="wm-tmlabel">
+                                    <h2>Summertime: Willie Nelson Sings Gershwin Album</h2>
+                                    <p>Back in October word leaked that James Murphy was getting LCD Soundsystem back together for a few Coach ella performances. It was quickly dismissed by DFA.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="wm-event-gallery">
+                        <div class="wm-blog-heading">
+                            <h2>Post Event Gallery</h2>
+                        </div>
+                        <div class="wm-slider-first">
+                            <!-- START SLICK SLIDER -->
+                            <div class="wm-slides-row">
+                                <ul class="wm-eventgallery-slider">
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-1.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-2.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-3.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-4.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-5.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-6.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="wm-slides-row">
+                                <ul class="wm-eventgallery-slider">
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-1.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-2.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-3.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-4.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-5.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                    <li>
+                                        <figure> <img src="extra-images/event-gallery-6.jpg" alt="">
+                                            <figcaption>
+                                                <h3><a href="#">Preparing The Show</a></h3>
+                                            </figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END SLICK SLIDER -->
+                    <div class="wm-blog-tags wm-events-tags">
+                        <div class="wm-blog-heading">
+                            <h2>Tags</h2>
+                        </div>
+                        <ul class="wm-tags">
+                            <li><a href="#">Entertainment</a></li>
+                            <li><a href="#">guitar</a></li>
+                            <li><a href="#">DJ’s</a></li>
+                            <li><a href="#">singing</a></li>
+                            <li><a href="#">singing</a></li>
+                            <li><a href="#">celebrity</a></li>
+                        </ul>
+                        <ul class="wm-tags-social">
+                            <li><a href="#"><i class="flaticon-social-1"></i></a></li>
+                            <li><a href="#"><i class="flaticon-social-2"></i></a></li>
+                            <li><a href="#"><i class="flaticon-shape"></i></a></li>
+                            <li><a href="#"><i class="flaticon-social-3"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <aside class="col-md-3">
+                    <div class="widget widget_add">
+                        <a href="#"><img alt="" src="extra-images/widget-add-2.jpg"></a>
+                    </div>
+                    <div class="widget widget_artists">
+                        <div class="wm-widget-heading">
+                            <h2>featured artists:</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <figure>
+                                    <a href="#"><img alt="" src="extra-images/featured-widget-1.jpg"></a>
+                                </figure>
+                                <section class="wm-newsinfo">
+                                    <h3><a href="#">Annie Myers–Pop</a></h3>
+                                    <a href="#">9 Albums on Sale</a>
+                                    <div class="clearfix"></div>
+                                </section>
+                            </li>
+                            <li>
+                                <figure>
+                                    <a href="#"><img alt="" src="extra-images/featured-widget-2.jpg"></a>
+                                </figure>
+                                <section class="wm-newsinfo">
+                                    <h3><a href="#">Annie Myers–Pop</a></h3>
+                                    <a href="#">7 Albums on Sale</a>
+                                    <div class="clearfix"></div>
+                                </section>
+                            </li>
+                            <li>
+                                <figure>
+                                    <a href="#"><img alt="" src="extra-images/featured-widget-3.jpg"></a>
+                                </figure>
+                                <section class="wm-newsinfo">
+                                    <h3><a href="#">Ralph Franz–Rock</a></h3>
+                                    <a href="#">8 Albums on Sale</a>
+                                    <div class="clearfix"></div>
+                                </section>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget widget_upcoming_listing">
+                        <div class="wm-widget-heading">
+                            <h2>upcoming listing</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <figure>
+                                    <a href="#"><img alt="" src="extra-images/listing-widget-1.jpg"></a>
+                                </figure>
+                                <section class="wm-newsinfo">
+                                    <h3><a href="#">Capitán Tapón</a></h3>
+                                    <h4>Alejandro Sanz</h4>
+                                    <span>Played: 2 mins ago</span>
+                                    <div class="clearfix"></div>
+                                </section>
+                            </li>
+                            <li>
+                                <figure>
+                                    <a href="#"><img alt="" src="extra-images/listing-widget-2.jpg"></a>
+                                </figure>
+                                <section class="wm-newsinfo">
+                                    <h3><a href="#">Same Old Love</a></h3>
+                                    <h4>Jennifer James</h4>
+                                    <span>Played: 3 mins ago</span>
+                                    <div class="clearfix"></div>
+                                </section>
+                            </li>
+                            <li>
+                                <figure>
+                                    <a href="#"><img alt="" src="extra-images/listing-widget-3.jpg"></a>
+                                </figure>
+                                <section class="wm-newsinfo">
+                                    <h3><a href="#">I Found A Girl</a></h3>
+                                    <h4>The Vamps</h4>
+                                    <span>Played: 5 mins ago</span>
+                                    <div class="clearfix"></div>
+                                </section>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget widget-gallery">
+                        <div class="wm-widget-heading">
+                            <h2>upcoming events</h2>
+                        </div>
+                        <div class="widget-gallery-wrap">
+                            <div class="wm-layer">
+                                <figure> <img src="extra-images/widget-gallery-1.jpg" alt="">
+                                    <figcaption>
+                                        <time datetime="2013-04-10 18:30"><span>07:30 PM</span></time>
+                                        <h3>SAP Center at San Jose,CA</h3>
+                                        <div id="widget-Countdown-one"></div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="wm-layer">
+                                <figure> <img src="extra-images/widget-gallery-1.jpg" alt="">
+                                    <figcaption>
+                                        <time datetime="2013-04-10 18:30"><span>07:30 PM</span></time>
+                                        <h3>SAP Center at San Jose,CA</h3>
+                                        <div id="widget-Countdown-two"></div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <!-- START SLICK SLIDER -->
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    <!--// Main Section \\-->
+</div>
+
+  <!--// Main Content \\--> 
+  <!--// Footer \\-->
+  <footer id="wm-footer" class="footer-two">
+
+	<!--// Footer Widget \\-->
+	<div class="wm-footer-widgets">
+		<div class="container">
+			<div class="row">
+				<aside class="col-md-4 widget widget_slider">
+					<div class="wm-footer-widget-title"> <h2>Don’t miss this:</h2> </div>
+					<div class="widget_slider_wrap">
+						<div class="widget_slide_layer"><img src="extra-images/widget-slider-1.jpg" alt=""></div>
+						<div class="widget_slide_layer"><img src="extra-images/widget-slider-1.jpg" alt=""></div>
+					</div>
+					<h4>Photo Recap: Charles Jemmington @ <span>Joy Theater New Orleans</span> on 25/04/16</h4>
+				</aside>
+				<aside class="col-md-4 widget widget_artists">
+					<div class="wm-footer-widget-title"> <h2>featured artists:</h2> </div>
+					<ul>
+						<li>
+						    <figure> <a href="#"><img src="extra-images/artist-widget-1.jpg" alt=""></a> </figure>
+						    <section class="wm-newsinfo">
+							    <h3><a href="#">Annie B. Myers – Pop Singer</a></h3>
+							    <a href="#">9 Albums on Sale</a>
+							<div class="clearfix"></div>
+							</section>
+						</li> 
+						<li>
+						    <figure> <a href="#"><img src="extra-images/artist-widget-2.jpg" alt=""></a> </figure>
+						    <section class="wm-newsinfo">
+							    <h3><a href="#">Chris R. Gonzalez – Soul Singer</a></h3>
+							    <a href="#">7 Albums on Sale</a>
+							<div class="clearfix"></div>
+							</section>
+						</li> 
+						<li>
+						    <figure> <a href="#"><img src="extra-images/artist-widget-3.jpg" alt=""></a> </figure>
+						    <section class="wm-newsinfo">
+							    <h3><a href="#">Ralph L. Franz – Rock Band</a></h3>
+							    <a href="#">8 Albums on Sale</a>
+							<div class="clearfix"></div>
+							</section>
+						</li>
+					</ul>
+				</aside>
+				<aside class="col-md-4 widget widget_weekstracks">
+					<div class="wm-footer-widget-title"> <h2>this week’s tracks:</h2> </div>
+					<ul>
+						<li>
+							<time datetime="2008-02-14 20:00">/01</time>
+							<section class="wm-weekstracks-text">
+								<h5><a href="#">Of All Things (feat. Too $hort) Top 100 Uk</a></h5>
+								<span class="wm-color">201.123 listeners</span>
+							</section>
+						</li>
+						<li>
+							<time datetime="2008-02-14 20:00">/02</time>
+							<section class="wm-weekstracks-text">
+								<h5><a href="#">Everything Will Be OK (feat. Kehlani) Top 100 Uk</a></h5>
+								<span class="wm-color">176.009 listeners</span>
+							</section>
+						</li>
+						<li>
+							<time datetime="2008-02-14 20:00">/03</time>
+							<section class="wm-weekstracks-text">
+								<h5><a href="#">Some Kind of Drug (feat. Marc Bass) Top 100 Uk</a></h5>
+								<span class="wm-color">101.865 listeners</span>
+							</section>
+						</li>
+					</ul>
+				</aside>
+			</div>
+		</div>
+	</div>
+	<!--// Footer Widget \\-->
+
+	<!--// Footer Bottom Section \\-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="wm-footer-bottom-section">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="wm-newslatter-section">
+								<div class="wm-footer-widget-title"> <h2>subscribe to our newsletter:</h2> </div>
+								<form>
+									<input type="text" value="Your Email Address" onblur="if(this.value == '') { this.value ='Your Email Address'; }" onfocus="if(this.value =='Your Email Address') { this.value = ''; }">
+									<input type="submit" value="Subscribe Now" class="wm-color wm-bordercolor">
+								</form>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="wm-footer-social-media">
+								<ul class="wm-footer-icons">
+									<li><a href="#"><i class="flaticon-social-2"></i> twitter</a></li>
+									<li><a href="#"><i class="flaticon-social-1"></i> facebook</a></li>
+									<li><a href="#"><i class="flaticon-social-3"></i> spotify</a></li>
+									<li><a href="#"><i class="flaticon-shape"></i> Musicbeat</a></li>
+								</ul>
+								<p>© 2016, All Right <a href="#">Reserved</a> - by <a href="#">WebMarce</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--// Footer Bottom Section \\-->
+
+	<!--// Player \\-->
+	<div class="wm-footer-player">
+		
+		<div id="jquery_jplayer_2" class="jp-jplayer"></div>
+		<div id="jp_container_2" class="jp-audio" role="application" aria-label="media player">
+			<div class="jp-type-playlist">
+				<div class="jp-playlist">
+					<ul>
+						<li>&nbsp;</li>
+					</ul>
+				</div>
+				<div class="jp-gui jp-interface">
+					<span class="jp-stop wm-bgcolor"><i class="flaticon-power"></i></span>
+					<div id="current-track1" class="song-title">Catch & Release</div>
+					<div class="jp-controls">
+						<span class="jp-shuffle"><i class="flaticon-arrows-2"></i></span>
+						<span class="wm-bgcolor-one jp-previous"><i class="flaticon-arrows-1"></i></span>
+						<span class="jp-play"><i class="fa fa-pause"></i> <i class="fa fa-play"></i></span>
+						<span class="wm-bgcolor-one jp-next"><i class="flaticon-arrows-1"></i></span>
+						<span class="jp-repeat"><i class="flaticon-arrows-3"></i></span>
+					</div>
+					<div class="wm-player-wrap">
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+							</div>
+						</div>
+						<div class="jp-volume-controls">
+							<span class="jp-mute"><i class="fa fa-volume-up"></i> <i class="fa fa-volume-off"></i></span>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value"></div>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="wm-playlist-btn"><i class="flaticon-music-1"></i></a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!--// Player \\-->
+
+  </footer>
+  <!--// Footer \\--> 
+</div>
+<!--// Main Wrapper \\--> 
+
+	<!-- jQuery (necessary for JavaScript plugins) --> 
+	<script type="text/javascript" src="script/jquery.js"></script>
+	<script type="text/javascript" src="script/modernizr.js"></script>
+	<script type="text/javascript" src="script/jquery-ui.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/jquery.prettyphoto.js"></script>
+    <script type="text/javascript" src="script/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="script/fitvideo.js"></script>
+    <script type="text/javascript" src="script/skills.js"></script>
+    <script type="text/javascript" src="script/slick.slider.min.js"></script>
+    <script type="text/javascript" src="script/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="script/jplayer.playlist.js"></script>
+    <script type="text/javascript" src="script/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="script/moment.min.js"></script>
+    <script type="text/javascript" src="script/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="script/waypoints-min.js"></script>
+    <script type="text/javascript" src="script/isotope.min.js"></script>
+    <script type="text/javascript" src="script/functions.js"></script>
+    <script type="text/javascript" src="script/jplayer.functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>MusicBeat Home Page1</title>
+
+    <!-- Css Files -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+    <link href="css/color-one.css" rel="stylesheet">
+    <link href="css/color-two.css" rel="stylesheet">
+    <link href="css/slick-slider.css" rel="stylesheet">
+    <link href="css/prettyphoto.css" rel="stylesheet">
+    <link href="css/jplayer.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	
+    <!--// Main Wrapper \\-->
+    <div class="wm-main-wrapper">
+        
+        <!--// Header \\-->
+		<header id="wm-header" class="wm-header-one">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3"><a href="index.html" class="wm-logo"><img src="images/logo1.png" alt=""></a></div>
+					<div class="col-md-9">
+
+						<!--// Plugin Section \\-->
+						<div class="wm-plugin-section">
+							<form class="wm-search">
+								<i class="flaticon-search"></i>
+								<input type="text" value="Search..." onblur="if(this.value == '') { this.value ='Search...'; }" onfocus="if(this.value =='Search...') { this.value = ''; }">
+								<input type="submit" value="">
+							</form>
+							<div class="wm-right-section">
+								<div class="wm-language">
+									<ul>
+										<li><a href="#">EN <i class="flaticon-arrows"></i></a></li>
+									</ul>
+								</div>
+								<a href="#" class="wm-cart"><i class="flaticon-tool"></i> <span>0</span></a>
+								<div class="wm-cart-box">
+									<h2>3 items in the cart</h2>
+									<ul>
+										<li id="wmremove1">
+											<figure><a href="#"><img src="extra-images/cartbox-1.jpg" alt=""></a></figure>
+											<div class="wm-cartbox-text">
+												<h6><a href="#">1 x Golden Trumpet</a></h6>
+												<div class="wm-rating"><span class="wm-rating-box" style="width:45%"></span></div>
+												<small>$32.00</small>
+												<a href="#" class="wm-close-cart" id="wmbtnremove1"><i class="fa fa-times"></i></a>
+											</div>
+										</li>
+										<li id="wmremove2">
+											<figure><a href="#"><img src="extra-images/cartbox-2.jpg" alt=""></a></figure>
+											<div class="wm-cartbox-text">
+												<h6><a href="#">2 x Electric Guitar</a></h6>
+												<div class="wm-rating"><span class="wm-rating-box" style="width:45%"></span></div>
+												<small>$43.99</small>
+												<a href="#" class="wm-close-cart" id="wmbtnremove2"><i class="fa fa-times"></i></a>
+											</div>
+										</li>
+										<li id="wmremove3">
+											<figure><a href="#"><img src="extra-images/cartbox-3.jpg" alt=""></a></figure>
+											<div class="wm-cartbox-text">
+												<h6><a href="#">1 x Bass Amps</a></h6>
+												<div class="wm-rating"><span class="wm-rating-box" style="width:45%"></span></div>
+												<small>$89.99</small>
+												<a href="#" class="wm-close-cart" id="wmbtnremove3"><i class="fa fa-times"></i></a>
+											</div>
+										</li>
+									</ul>
+									<p>Subtotal <span>$165.98</span></p>
+									<div class="wm-cart-link"><a href="#" class="wm-cartbox-btn"><i class="flaticon-tool"></i> checkout</a></div>
+								</div>
+							</div>
+						</div>
+						<!--// Plugin Section \\-->
+
+						<!--// Navigation \\-->
+						<nav class="navbar navbar-default">
+						    <div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+						    </div>
+						    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+						      <ul class="nav navbar-nav">
+						        <li class="active"><a href="#">Home</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="index.html">MusciBeat Home V1</a></li>
+						        		<li><a href="index-two.html">MusciBeat Home V2</a></li>
+						        		<li><a href="index-three.html">MusciBeat Home V3</a></li>
+						        		<li><a href="index-four.html">MusciBeat Home V4</a></li>
+						        	</ul>
+						        </li>
+						        <li class="wm-megamenu-li"><a href="#">Artists</a>
+						        	<ul class="wm-megamenu">
+						        		<li class="row">
+						        			<div class="col-md-2">
+						        				<h4>Artists Page's</h4>
+						        				<ul class="wm-megalist">
+						        					<li><a href="artist-grid.html">Artists Grid</a></li>
+						        					<li><a href="artist-grid-wsidebar.html">Artists Grid W/SideBar</a></li>
+						        					<li><a href="artist-list.html">Artists List</a></li>
+						        					<li><a href="artist-list-wsidebar.html">Artists List W/SideBar</a></li>
+						        					<li><a href="artist-single.html">Artists Single</a></li>
+						        				</ul>
+						        			</div>
+						        			<div class="col-md-5">
+						        				<h4>Artists text</h4>
+						        				<div class="wm-mega-text">
+						        					<p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.</p>
+						        					<p>If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.</p>
+						        				</div>
+						        			</div>
+						        			<div class="col-md-5">
+						        				<h4>sub category widget</h4>
+						        				<a href="#" class="wm-thumbnail">
+													<img src="extra-images/mega-menuadd.jpg" alt="" />
+												</a>
+						        			</div>
+						        		</li>
+						        	</ul>
+						        </li>
+						        <li><a href="#">Albums</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="album-grid.html">Albums Grid</a></li>
+						        		<li><a href="album-grid-no-filterable.html">Albums Grid W/out/FilterAble</a></li>
+						        		<li><a href="album-grid-wsidebar.html">Albums Grid W/SideBar</a></li>
+						        		<li><a href="album-list.html">Albums List</a></li>
+						        		<li><a href="album-list-no-sidebar.html">Albums List W/Out/SideBar</a></li>
+						        		<li><a href="album-single-post.html">Albums Single Post</a></li>
+						        	</ul>
+						        </li>
+						        <li ><a href="#">Events</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="event-grid.html">Event Grid</a></li>
+						        		<li><a href="event-list.html">Event List</a></li>
+						        		<li><a href="events-calendar.html">Event Calendar</a></li>
+						        		<li><a href="event-single.html">Event Single</a></li>
+						        	</ul>
+						        </li>
+						        <li class="wm-megamenu-li"><a href="#">Pages</a>
+						        	<ul class="wm-megamenu">
+						        		<li class="row">
+						        			<div class="col-md-2">
+						        				<h4>Link 1</h4>
+						        				<ul class="wm-megalist">
+						        					<li><a href="about-us.html">About Us</a></li>
+						        					<li><a href="our-gallery.html">Our Gallery</a></li>
+						        					<li><a href="our-price.html">Our PricePlan</a></li>
+						        					<li><a href="our-services.html">Our Services</a></li>
+						        					<li><a href="search-result.html">Search Result</a></li>
+						        				</ul>
+						        			</div>
+						        			<div class="col-md-2">
+						        				<h4>Link 2</h4>
+						        				<ul class="wm-megalist">
+						        					<li><a href="sitemap.html">SiteMap</a></li>
+						        					<li><a href="faq.html">Faq</a></li>
+						        					<li><a href="faqv2.html">Faq V2</a></li>
+						        					<li><a href="404-page.html">404 Page</a></li>
+						        					<li><a href="coming-soon.html">Coming Soon Page</a></li>
+						        				</ul>
+						        			</div>
+						        			<div class="col-md-2">
+						        				<h4>Link 3</h4>
+						        				<ul class="wm-megalist">
+						        					<li><a href="shop-grid.html">Shop Grid</a></li>
+									        		<li><a href="shop-list.html">Shop List</a></li>
+									        		<li><a href="shop-single.html">Shop Detail</a></li>
+						        					<li><a href="contact-us.html">Contact Us View1</a></li>
+						        					<li><a href="contact-us-two.html">Contact Us View2</a></li>
+						        				</ul>
+						        			</div>
+						        			<div class="col-md-6">
+						        				<a href="#" class="wm-thumbnail">
+													<img src="extra-images/jplayer-poster-1.jpg" alt="" />
+												</a>
+						        			</div>
+						        		</li>
+						        	</ul>
+						        </li>
+						        <li><a href="#">Blog</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="blog-large.html">Blog Large</a></li>
+						        		<li><a href="blog-mediam.html">Blog Medium</a></li>
+						        		<li><a href="blog-single.html">Blog Detail</a></li>
+						        	</ul>
+						        </li>
+						        <li><a href="#">Shop</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="shop-grid.html">Shop Grid</a></li>
+						        		<li><a href="shop-list.html">Shop List</a></li>
+						        		<li><a href="shop-single.html">Shop Detail</a></li>
+						        	</ul>
+						        </li>
+						        <li><a href="#">Contact</a>
+						        	<ul class="wm-dropdown-menu">
+						        		<li><a href="contact-us.html">Contact Us View1</a></li>
+						        		<li><a href="contact-us-two.html">Contact Us View2</a></li>
+						        	</ul>
+						        </li>
+						      </ul>
+						    </div>
+						</nav>
+						<!--// Navigation \\-->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--// Header \\-->
+
+		<!--// Main Banner \\-->
+		<div class="wm-main-banner">
+			
+			<!--// Banner \\-->
+			<div class="wm-banner">
+				<div class="wm-banner-slide">
+					<span class="wm-banner-layer"></span>
+					<img src="extra-images/banner-1.jpg" alt="">
+					<div class="wm-caption">
+						<h1>Singing that comes from soul</h1>
+						<div class="clearfix"></div>
+						<a href="#" class="wm-default-btn"><span>Check our events</span></a>
+						<a href="#" class="wm-default-btn"><span>Purchase tickets</span></a>
+					</div>
+				</div>
+				<div class="wm-banner-slide">
+					<span class="wm-banner-layer"></span>
+					<img src="extra-images/banner-2.jpg" alt="">
+					<div class="wm-caption wm-leftcaption">
+						<div class="container">
+							<h1>Music is the poetry of the air</h1>
+							<div class="clearfix"></div>
+							<a href="#" class="wm-default-btn"><span>Check our events</span></a>
+							<a href="#" class="wm-default-btn"><span>Purchase tickets</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="wm-banner-slide">
+					<span class="wm-banner-layer"></span>
+					<img src="extra-images/banner-3.jpg" alt="">
+					<div class="wm-caption wm-rightcaption">
+						<div class="container">
+							<h1>The Best Music Band Ever</h1>
+							<div class="clearfix"></div>
+							<a href="#" class="wm-default-btn"><span>Check our events</span></a>
+							<a href="#" class="wm-default-btn"><span>Purchase tickets</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Banner \\-->
+
+			<!--// Player \\-->
+			<div class="wm-banner-player">
+				<div class="container">
+					<div id="jquery_jplayer_2" class="jp-jplayer"></div>
+					<div id="jp_container_2" class="jp-audio" role="application" aria-label="media player">
+						<div class="jp-type-playlist">
+							<div class="jp-playlist">
+								<ul>
+									<li>&nbsp;</li>
+								</ul>
+							</div>
+							<div class="jp-gui jp-interface">
+								<div class="jp-controls">
+									<span class="wm-bgcolor-one jp-previous"><i class="flaticon-arrows-1"></i></span>
+									<span class="jp-play"><i class="fa fa-pause"></i> <i class="fa fa-play"></i></span>
+									<span class="wm-bgcolor-one jp-next"><i class="flaticon-arrows-1"></i></span>
+									<span class="jp-stop"><i class="flaticon-circle"></i></span>
+								</div>
+								<div class="wm-player-wrap">
+									<div id="current-track1" class="song-title">Catch & Release (Deepend Remix)</div>
+									<div class="jp-time-holder">
+										<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+										<div class="jp-duration" role="timer" aria-label="duration">/&nbsp;</div>
+									</div>
+									<div class="jp-progress">
+										<div class="jp-seek-bar">
+											<div class="jp-play-bar"></div>
+										</div>
+									</div>
+									<div class="jp-toggles">
+										<span class="jp-shuffle"><i class="flaticon-arrows-2"></i></span>
+										<span class="jp-repeat"><i class="flaticon-arrows-3"></i></span>
+										<div class="wm-player-options">
+											<a href="#"><i class="flaticon-social"></i> 32,876</a>
+											<a href="#"><i class="flaticon-music"></i> 210,986</a>
+											<a href="#"><i class="flaticon-web"></i> 489</a>
+										</div>
+									</div>
+								</div>
+								<a href="#" class="wm-playlist-btn"><i class="flaticon-music-1"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Player \\-->
+
+		</div>
+		<!--// Main Banner \\-->
+
+		<!--// Main Content \\-->
+		<div class="wm-main-content">
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-element-holder-full">
+				<div class="container-fluid wm-overflow-container">
+					<div class="row">
+						
+						<!--// Event Countdown \\-->
+						<div class="col-md-12 col-offset-2">
+							<div class="wm-event-countdown">
+								
+								<div class="wm-event-countdown-title">
+									<h2>Our Upcoming</h2>
+									<h3>Events</h3>
+								</div>
+
+								<div class="wm-countdown-section">
+									<h2>Upcoming Event @ Tennessee</h2>
+									<div id="wm-countdown"></div>
+								</div>
+								<a href="#" class="wm-event-viewbtn"><span>View All</span></a>
+
+							</div>
+						</div>
+						<!--// Event Countdown \\-->
+
+						<!--// Event ModrenGrid \\-->
+						<div class="col-md-12 col-offset-2">
+							<div class="wm-modren-event">
+								<ul>
+									<li>
+										<figure><a href="#"><img src="extra-images/event-modren-1.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-event-title-caption">
+													<h2>24/03/16</h2>
+													<span>@ Tennessee</span>
+												</div>
+												<div class="wm-check-eventbtn"><a href="#">Check Out Event</a></div>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure><a href="#"><img src="extra-images/event-modren-2.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-event-title-caption">
+													<h2>22/01/16</h2>
+													<span>@ Tennessee</span>
+												</div>
+												<div class="wm-check-eventbtn"><a href="#">Check Out Event</a></div>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure><a href="#"><img src="extra-images/event-modren-3.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-event-title-caption">
+													<h2>23/04/16</h2>
+													<span>@ Wyoming</span>
+												</div>
+												<div class="wm-check-eventbtn"><a href="#">Check Out Event</a></div>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure><a href="#"><img src="extra-images/event-modren-4.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-event-title-caption">
+													<h2>04/05/16</h2>
+													<span>@ North Carolina</span>
+												</div>
+												<div class="wm-check-eventbtn"><a href="#">Check Out Event</a></div>
+											</figcaption>
+										</figure>
+									</li>
+									<li>
+										<figure><a href="#"><img src="extra-images/event-modren-2.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-event-title-caption">
+													<h2>23/05/16</h2>
+													<span>@ Oregon</span>
+												</div>
+												<div class="wm-check-eventbtn"><a href="#">Check Out Event</a></div>
+											</figcaption>
+										</figure>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--// Event ModrenGrid \\-->
+
+						<!--// Promo Songs \\-->
+						<div class="col-md-12 col-offset-2">
+							<div class="wm-promo-songs">
+								<figure class="wm-promosongs-thumb"><a href="#"><img src="extra-images/music-beat-disk-1.png" alt=""></a>
+									<figcaption>
+										<a href="#" title="Add To Cart Songs"><span><i class="flaticon-tool"></i></span></a>
+										<a href="#" title="Download Promo Songs"><span><i class="flaticon-interface"></i></span></a>
+									</figcaption>
+								</figure>
+								<div class="wm-promosong-text">
+									<div class="wm-promo-time">
+										<time datetime="2008-02-14 20:00">February 16,2016</time>
+										<ul>
+											<li><a href="#" class="flaticon-technology"></a></li>
+											<li><a href="#" class="flaticon-technology"></a></li>
+											<li><a href="#" class="flaticon-technology"></a></li>
+											<li><a href="#" class="flaticon-technology"></a></li>
+											<li><a href="#" class="flaticon-technology"></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+									<div class="wm-text-inner">
+										<span>New Album</span>
+										<h2>Down To My Bad Habit</h2>
+										<div class="ec-app-btn">
+											<a href="https://itunes.apple.com/en/genre/ios/id36?mt=8"><img src="images/play-thumb1.png" alt=""></a>
+											<a href="https://play.google.com/store?hl=en"><img src="images/play-thumb2.png" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--// Promo Songs \\-->
+
+						<!--// Band Members \\-->
+						<div class="col-md-12 col-offset-2">
+							<div class="wm-members-slider">
+								<h2>Our Band Members</h2>
+								<span class="wm-transparent-layer"></span>
+								<div class="wm-members-slider-wrap">
+									<div class="wm-members-slide-layer">
+										<figure><a href="#"><img src="extra-images/team-slider-1.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-members-caption">
+													<h2><a href="#">Angus Young</a></h2>
+													<span>Guitarist</span>
+													<div class="clearfix"></div>
+													<ul>
+														<li><a href="#" class="flaticon-social-1"></a></li>
+														<li><a href="#" class="flaticon-social-2"></a></li>
+													</ul>
+												</div>
+											</figcaption>
+										</figure>
+									</div>
+									<div class="wm-members-slide-layer">
+										<figure><a href="#"><img src="extra-images/team-slider-2.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-members-caption">
+													<h2><a href="#">Angus Young</a></h2>
+													<span>Guitarist</span>
+													<div class="clearfix"></div>
+													<ul>
+														<li><a href="#" class="flaticon-social-1"></a></li>
+														<li><a href="#" class="flaticon-social-2"></a></li>
+													</ul>
+												</div>
+											</figcaption>
+										</figure>
+									</div>
+									<div class="wm-members-slide-layer">
+										<figure><a href="#"><img src="extra-images/team-slider-3.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-members-caption">
+													<h2><a href="#">Angus Young</a></h2>
+													<span>Guitarist</span>
+													<div class="clearfix"></div>
+													<ul>
+														<li><a href="#" class="flaticon-social-1"></a></li>
+														<li><a href="#" class="flaticon-social-2"></a></li>
+													</ul>
+												</div>
+											</figcaption>
+										</figure>
+									</div>
+									<div class="wm-members-slide-layer">
+										<figure><a href="#"><img src="extra-images/team-slider-4.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-members-caption">
+													<h2><a href="#">Angus Young</a></h2>
+													<span>Guitarist</span>
+													<div class="clearfix"></div>
+													<ul>
+														<li><a href="#" class="flaticon-social-1"></a></li>
+														<li><a href="#" class="flaticon-social-2"></a></li>
+													</ul>
+												</div>
+											</figcaption>
+										</figure>
+									</div>
+									<div class="wm-members-slide-layer">
+										<figure><a href="#"><img src="extra-images/team-slider-2.jpg" alt=""></a>
+											<figcaption>
+												<div class="wm-members-caption">
+													<h2><a href="#">Angus Young</a></h2>
+													<span>Guitarist</span>
+													<div class="clearfix"></div>
+													<ul>
+														<li><a href="#" class="flaticon-social-1"></a></li>
+														<li><a href="#" class="flaticon-social-2"></a></li>
+													</ul>
+												</div>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--// Band Members \\-->
+
+						<!--// Gallery Slider \\-->
+						<div class="col-md-12 col-offset-2">
+							<div class="wm-gallery-section">
+								<div class="wm-fancy-title-one">
+									<span>Photos / Videos</span>
+									<h2>Check Our Gallery</h2>
+								</div>
+								<div class="wm-gallery-slider gallery">
+									<div class="wm-gallery-slide-layer">
+										<figure><a href="#"><img src="extra-images/gallery-slider-1.jpg" alt=""></a>
+											<figcaption>
+												<ul>
+													<li><a href="#" class="flaticon-link"></a></li>
+													<li><a href="#" class="flaticon-shapes"></a></li>
+													<li class="wm-gallery-tags"><a title="" data-rel="prettyPhoto" href="https://youtu.be/76TapKZ4_zM">Video</a></li>
+												</ul>
+												<a class="wm-play-video" title="" data-rel="prettyPhoto" href="https://youtu.be/76TapKZ4_zM"><i class="flaticon-play"></i></a>
+												<h2><a href="#">“Running From The Blows” Concert</a></h2>
+											</figcaption>
+										</figure>
+									</div>
+									<div class="wm-gallery-slide-layer">
+										<figure><a href="#"><img src="extra-images/gallery-slider-2.jpg" alt=""></a>
+											<figcaption>
+												<ul>
+													<li><a href="#" class="flaticon-link"></a></li>
+													<li><a href="#" class="flaticon-shapes"></a></li>
+													<li class="wm-gallery-tags"><a title="" data-rel="prettyPhoto" href="https://youtu.be/76TapKZ4_zM">Video</a></li>
+												</ul>
+												<a class="wm-play-video" title="" data-rel="prettyPhoto" href="https://youtu.be/76TapKZ4_zM"><i class="flaticon-play"></i></a>
+												<h2><a href="#">“Running From The Blows” Concert</a></h2>
+											</figcaption>
+										</figure>
+									</div>
+									<div class="wm-gallery-slide-layer">
+										<figure><a href="#"><img src="extra-images/gallery-slider-3.jpg" alt=""></a>
+											<figcaption>
+												<ul>
+													<li><a href="#" class="flaticon-link"></a></li>
+													<li><a href="#" class="flaticon-shapes"></a></li>
+													<li class="wm-gallery-tags"><a title="" data-rel="prettyPhoto" href="https://youtu.be/76TapKZ4_zM">Video</a></li>
+												</ul>
+												<a class="wm-play-video" title="" data-rel="prettyPhoto" href="https://youtu.be/76TapKZ4_zM"><i class="flaticon-play"></i></a>
+												<h2><a href="#">“Running From The Blows” Concert</a></h2>
+											</figcaption>
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--// Gallery Slider \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-tourfull">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6 no-padding">
+							<figure class="wm-thumb-frame"><img src="extra-images/tour-thumb-bg.jpg" alt=""> <span class="wm-transparent-thumb"></span> </figure>
+						</div>
+						<div class="col-md-6 no-padding">
+
+							<div class="wm-wrap-spacer">
+								<div class="wm-tour-title-section">
+									<div class="wm-title-area">
+										<span>Worldwide</span>
+										<h2>Next Tours</h2>
+									</div>
+									<a class="wm-event-viewbtn" href="#"><span>See All</span></a>
+								</div>
+								<div class="wm-tour wm-tour-list">
+									<ul class="row">
+										<li class="col-md-12">
+											<time datetime="2008-02-14 20:00">25/05/16 <span>18:00</span></time>
+											<figure><a href="#"><img src="extra-images/tour-list-1.jpg" alt=""> <span class="wm-transparent-thumb"></span></a></figure>
+											<h2><a href="#">David Gilmour <br> Marlins Park, Miami, Florida</a></h2>
+											<div class="wm-tour-stock">
+												<span>$70.99</span>
+												<small>Few In Stock</small>
+											</div>
+											<a class="wm-tourbtn" href="#"><span><i class="flaticon-tool"></i> Buy</span></a>
+										</li>
+										<li class="col-md-12 wm-sold-tour">
+											<time datetime="2008-02-14 20:00">27/05/16 <span>20:00</span></time>
+											<figure><a href="#"><img src="extra-images/tour-list-2.jpg" alt=""> <span class="wm-transparent-thumb"></span></a></figure>
+											<h2><a href="#">Rolling Stones <br> Morumbi, São Paulo, Brazil</a></h2>
+											<div class="wm-tour-stock">
+												<span>$250.99</span>
+												<small>VIP Ticket</small>
+											</div>
+											<a class="wm-tourbtn" href="#"><span>Sold Out</span></a>
+										</li>
+										<li class="col-md-12 wm-cancelled-tour">
+											<time datetime="2008-02-14 20:00">01/06/16 <span>19:00</span></time>
+											<figure><a href="#"><img src="extra-images/tour-list-3.jpg" alt=""> <span class="wm-transparent-thumb"></span></a></figure>
+											<h2><a href="#">Iron Maiden <br> Tulsa, Oklahoma, USA</a></h2>
+											<div class="wm-tour-stock">
+												<span>$199.00</span>
+												<small>Today’s Deal</small>
+											</div>
+											<a class="wm-tourbtn" href="#"><span>Cancelled</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-featured-albumfull">
+				<div class="container">
+					<div class="row">
+
+						<!--// Item Information \\-->
+						<div class="col-md-4">
+							<div class="wm-item-info">
+								<span>Discography</span>
+								<h2>Featured Albums</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitami. Phasellus vulputate eta ex eget feugiat. Cras eget odiom et sapien. Ut ius sit amet.</p>
+								<a class="wm-event-viewbtn" href="#"><span>View All</span></a>
+							</div>
+						</div>
+						<!--// Item Information \\-->
+
+						<!--// Featured Album \\-->
+						<div class="col-md-8">
+							<div class="wm-album wm-featured-album">
+								<ul class="row">
+									<li class="col-md-4">
+										<figure><a href="#"><img src="extra-images/featured-album-1.jpg" alt=""></a> <span class="wm-album-category">New Album</span>
+											<a href="#" class="wm-featured-album-hover"><i class="flaticon-music"></i></a>
+										</figure>
+										<div class="wm-featured-album-text">
+											<p>Summary: The third full-length release for the sister duo was produced by Paul Mahern.</p>
+											<div class="wm-album-time">
+												<time datetime="2008-02-14 20:00">26/02/2016</time>
+												<a href="#" class="wm-track-btn">12 Tracks</a>
+											</div>
+										</div>
+									</li>
+									<li class="col-md-4 wm-featuredalbum">
+										<figure><a href="#"><img src="extra-images/featured-album-2.jpg" alt=""></a> <span class="wm-album-category">Featured Album</span>
+											<a href="#" class="wm-featured-album-hover"><i class="flaticon-music"></i></a>
+										</figure>
+										<div class="wm-featured-album-text">
+											<p>Summary: The latest release from the British rock band was acoustic and live recorded  in one day.</p>
+											<div class="wm-album-time">
+												<time datetime="2008-02-14 20:00">13/01/2016</time>
+												<a href="#" class="wm-track-btn">14 Tracks</a>
+											</div>
+										</div>
+									</li>
+									<li class="col-md-4 wm-freealbum">
+										<figure><a href="#"><img src="extra-images/featured-album-3.jpg" alt=""></a> <span class="wm-album-category">Free Album</span>
+											<a href="#" class="wm-featured-album-hover"><i class="flaticon-music"></i></a>
+										</figure>
+										<div class="wm-featured-album-text">
+											<p>Summary: The electronic artist worked with Vampire Weekend's Rostam Bat on her third full-length release.</p>
+											<div class="wm-album-time">
+												<time datetime="2008-02-14 20:00">02/01/2016</time>
+												<a href="#" class="wm-track-btn">9 Tracks</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--// Featured Album \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+			<!--// Main Section \\-->
+			<div class="wm-main-section wm-element-holder-full2">
+				<div class="container-fluid">
+					<div class="row">
+
+						<!--// Update Blog \\-->
+						<div class="col-md-6 no-padding">
+							<div class="wm-update-bloglist">
+
+								<div class="wm-update-title-area">
+									<div class="wm-left-section"><span>Our Blog</span> <h2>News & Updates</h2></div>
+									<a class="wm-event-viewbtn" href="#"><span>See All</span></a>
+								</div>
+
+								<div class="wm-update-blog-wrap">
+									<figure><a href="#"><img src="extra-images/update-blog-1.jpg" alt=""></a></figure>
+									<div class="wm-update-info">
+										<h2><a href="#">Brand of bluegrass infused jams to the Wilma</a></h2>
+										<ul class="wm-update-blog-options">
+											<li>25/02/16</li>
+											<li>4 comm</li>
+											<li><a href="#">345 views</a></li>
+										</ul>
+										<p>Railroad Earth brought their own brand of bluegrass infused jams to the Wilma this past Thursday. After a three-year hiatus from the high mountain town it was cooler than... <a href="#" class="wm-color-one">Read More</a></p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<!--// Update Blog \\-->
+
+						<!--// Our Store \\-->
+						<div class="col-md-10 no-padding">
+							<div class="wm-store-wrap">
+								<div class="wm-check-store">
+									<h2>Check Our Store</h2>
+									<div class="wm-store-slider">
+										
+										<div class="wm-store-slide-layer">
+											<figure><a href="#"><img src="extra-images/check-store-1.jpg" alt=""></a>
+												<figcaption>
+													<div class="wm-storebtn">
+														<a title="Add To Cart" href="#"><span><i class="flaticon-tool"></i></span></a>
+														<a title="Read More Details" href="#"><span><i class="flaticon-link"></i></span></a>
+													</div>
+												</figcaption>
+											</figure>
+											<div class="wm-ourstore-text">
+												<small>Accessories</small>
+												<span>$9.99</span>
+												<ul>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+												</ul>
+												<h2><a href="#">Bag Men’s Ware Music Beat</a></h2>
+											</div>
+										</div>
+										<div class="wm-store-slide-layer">
+											<figure><a href="#"><img src="extra-images/check-store-2.jpg" alt=""></a>
+												<figcaption>
+													<div class="wm-storebtn">
+														<a title="Add To Cart" href="#"><span><i class="flaticon-tool"></i></span></a>
+														<a title="Read More Details" href="#"><span><i class="flaticon-link"></i></span></a>
+													</div>
+												</figcaption>
+											</figure>
+											<div class="wm-ourstore-text">
+												<small>Body Spray</small>
+												<span>$5.99</span>
+												<ul>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+												</ul>
+												<h2><a href="#">Music Beat Body Sprays</a></h2>
+											</div>
+										</div>
+										<div class="wm-store-slide-layer">
+											<figure><a href="#"><img src="extra-images/check-store-3.jpg" alt=""></a>
+												<figcaption>
+													<div class="wm-storebtn">
+														<a title="Add To Cart" href="#"><span><i class="flaticon-tool"></i></span></a>
+														<a title="Read More Details" href="#"><span><i class="flaticon-link"></i></span></a>
+													</div>
+												</figcaption>
+											</figure>
+											<div class="wm-ourstore-text">
+												<small>Clothing Apparel</small>
+												<span>$12.99</span>
+												<ul>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+												</ul>
+												<h2><a href="#">Men’s T-shirt Music Beat</a></h2>
+											</div>
+										</div>
+										<div class="wm-store-slide-layer">
+											<figure><a href="#"><img src="extra-images/check-store-2.jpg" alt=""></a>
+												<figcaption>
+													<div class="wm-storebtn">
+														<a title="Add To Cart" href="#"><span><i class="flaticon-tool"></i></span></a>
+														<a title="Read More Details" href="#"><span><i class="flaticon-link"></i></span></a>
+													</div>
+												</figcaption>
+											</figure>
+											<div class="wm-ourstore-text">
+												<small>Body Spray</small>
+												<span>$5.99</span>
+												<ul>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+													<li><a class="flaticon-technology" href="#"></a></li>
+												</ul>
+												<h2><a href="#">Music Beat Body Sprays</a></h2>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--// Our Store \\-->
+
+						<!--// Footer \\-->
+						<footer id="wm-footer" class="footer-one">
+
+							<!--// Footer Widget's \\-->
+							<div class="wm-footer-newslatter">
+								<div class="container">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="wm-footer-title"><h2>Our Newsletter</h2></div>
+											<p>Be the first to subscribe to our newsletter in order to receive our latest news and offers for our concerts.</p>
+											<ul>
+												<li><a href="#" class="flaticon-social-1"></a></li>
+												<li><a href="#" class="flaticon-social-2"></a></li>
+												<li><a href="#" class="fa fa-flickr"></a></li>
+											</ul>
+											<div class="clearfix"></div>
+											<form>
+												<input type="text" value="Your Email Address" onblur="if(this.value == '') { this.value ='Your Email Address'; }" onfocus="if(this.value =='Your Email Address') { this.value = ''; }">
+												<input type="submit" value="Subscribe">
+											</form>
+										</div>
+										<div class="col-md-12 wm-copyrights-section"><p>© 2016 MusicBeat, All Right <a href="#">Reserved</a> - by <a href="#">WebMarce</a></p></div>
+									</div>
+								</div>
+							</div>
+							<!--// Footer Widget's \\-->
+
+						</footer>
+						<!--// Footer \\-->
+
+					</div>
+				</div>
+			</div>
+			<!--// Main Section \\-->
+
+		</div>
+		<!--// Main Content \\-->
+
+	<div class="clearfix"></div>
+    </div>
+    <!--// Main Wrapper \\-->
+
+	<!-- jQuery (necessary for JavaScript plugins) -->
+	<script type="text/javascript" src="script/jquery.js"></script>
+	<script type="text/javascript" src="script/modernizr.js"></script>
+	<script type="text/javascript" src="script/jquery-ui.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/jquery.prettyphoto.js"></script>
+    <script type="text/javascript" src="script/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="script/fitvideo.js"></script>
+    <script type="text/javascript" src="script/skills.js"></script>
+    <script type="text/javascript" src="script/slick.slider.min.js"></script>
+    <script type="text/javascript" src="script/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="script/jplayer.playlist.js"></script>
+    <script type="text/javascript" src="script/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="script/moment.min.js"></script>
+    <script type="text/javascript" src="script/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="script/waypoints-min.js"></script>
+    <script type="text/javascript" src="script/isotope.min.js"></script>
+    <script type="text/javascript" src="script/functions.js"></script>
+    <script type="text/javascript" src="script/jplayer.functions.js"></script>
+
+  </body>
+</html>

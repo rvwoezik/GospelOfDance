@@ -1,0 +1,12 @@
+
+.wm-color-two, .wm-colorhover-two:hover,.wm-artist-slider .slick-arrow:hover {
+    color: #fdb95b;
+}
+.wm-bgcolor-two, .wm-bgcolorhover-two:hover,.wm-latest-releases-slider .slick-arrow:hover,.wm-latest-releases-slider .slick-arrow.slick-arrow-left,.wm-ourvideo-slider .slick-dots li.slick-active button,
+.wm-masgallery-caption:before,.wm-masgallery-caption:after,.wm-effect-layer:after,.wm-effect-layer:before,.wm-news-grid figure figcaption:before,.wm-shop-links a:hover,.wm-shop-medium .slick-arrow,
+.widget_trending_artist ul li figcaption:before {
+    background-color: #fdb95b;
+}
+.wm-bordercolor-two, .wm-bordercolorhover-two:hover {
+    border-color: #fdb95b;
+}

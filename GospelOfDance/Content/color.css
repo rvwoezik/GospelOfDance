@@ -1,0 +1,24 @@
+
+.wm-color, .wm-colorhover:hover,.wm-header-two .navbar-nav > li:hover > a,.wm-header-two .navbar-nav > li.active > a,.widget_artists ul li:hover .wm-newsinfo > a,
+ul li:hover .wm-ticket-btn:after,.blog-post-options li:first-child a,.widget_upcoming_listing .wm-newsinfo span,.fc-state-hover .fc-icon-left-single-arrow:after,.fc-state-hover .fc-icon-right-single-arrow:after,
+.wm-blog-text > h3 a,.wm-blog-text p a,#eccomments ul li .text a.replay-button,.wm-tags-social li:hover,.wm-tags li :hover,.wm-404-page .wm-404page-list ul li a:hover, .wm-contactus-listing li a,
+.wm-404-page h2, .wm-contact-us-info li a, .wm-contactus .wm-social-icon ul li a:hover, .wm-comingsoon-classic .wm-social-icon ul li a:hover, .wm-search-result-text a,.wm-album-nav ul li:hover a,
+.wm-album-nav ul li.active a,.wm-album-nav ul li:hover a:after,.wm-shop-text .wm-rating-box:before,.widget_topsellers .wm-rating-box:before {
+    color: #ffc400;
+}
+.wm-bgcolor, .wm-bgcolorhover:hover,.wm-header-two .navbar-nav > li > a:before,.widget_slider_wrap .slick-arrow:hover,.wm-recent-releases-album figcaption:before,
+.wm-recent-releases-album figcaption:after,.wm-ticket-btn:before,.wm-event-link a:hover,.wm-modern-gallery figure figcaption:before,.wm-listing-slider .slick-arrow-left.slick-arrow i:hover,
+ .wm-listing-slider .slick-arrow-right.slick-arrow i:hover,.wm-comingsoon-classic .wm-comingsoon-text form label input[type="submit"], .wm-transparent-color,.wm-related-artist-slider .slick-arrow:hover,
+ .wm-shoplink:before,.wm-transparent-color, .wm-happybayers .slick-arrow-left:hover,.wm-happybayers .slick-arrow-right:hover, .wm-partner-fancy-slide .slick-arrow-left:hover, .wm-partner-fancy-slide .slick-arrow-right:hover,
+ .wm-services-contribution-text .count-bar {
+    background-color: #ffc400;
+}
+.wm-bordercolor, .wm-bordercolorhover:hover,.widget_artists ul li:hover .wm-newsinfo > a,.blog-post-options li:first-child {
+    border-color: #ffc400;
+}
+.blog-latest-post:after {
+	border-left-color: #ffc400;
+}
+.wm-faq-text-color:before {
+	border-top-color: #ffc400;
+}
